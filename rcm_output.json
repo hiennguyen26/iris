@@ -1,0 +1,2242 @@
+[
+  {
+    "process_name": "BCM- Disaster Recovery",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "STD-0001",
+          "name": "ISO 22301",
+          "description": "This standard specifies requirements to implement, maintain and improve a management system to protect against, reduce the likelihood of, and ensure your business recovers from disruptive incidents."
+        },
+        "controls": [
+          {
+            "id": "CTRL-0001",
+            "name": "Business Impact Analysis (BIA)",
+            "description": "Conduct regular BIAs to identify critical business functions and the impact of disruption.",
+            "standard_id": "STD-0001"
+          },
+          {
+            "id": "CTRL-0002",
+            "name": "Recovery Strategy",
+            "description": "Establish and maintain a strategy for recovery of critical business functions within an acceptable timeframe.",
+            "standard_id": "STD-0001"
+          },
+          {
+            "id": "CTRL-0003",
+            "name": "Testing and Exercising",
+            "description": "Regularly test and exercise disaster recovery plans to ensure effectiveness and awareness.",
+            "standard_id": "STD-0001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "RSK-0001",
+            "name": "Inadequate Impact Analysis",
+            "description": "Failure to accurately identify critical functions, leading to inadequate recovery planning.",
+            "control_id": "CTRL-0001"
+          },
+          {
+            "id": "RSK-0002",
+            "name": "Extended Downtime",
+            "description": "Prolonged recovery time due to insufficient recovery strategies.",
+            "control_id": "CTRL-0002"
+          },
+          {
+            "id": "RSK-0003",
+            "name": "Ineffective DR Plans",
+            "description": "DR plans fail during a real incident due to lack of regular testing.",
+            "control_id": "CTRL-0003"
+          },
+          {
+            "id": "RSK-0004",
+            "name": "Awareness Gaps",
+            "description": "Staff are unaware of DR procedures because of inadequate training and exercises.",
+            "control_id": "CTRL-0003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Change & Release Management",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "STD-CRM-001",
+          "name": "ITIL Change Management",
+          "description": "Framework for managing changes to IT services."
+        },
+        "controls": [
+          {
+            "id": "CTRL-CRM-001",
+            "name": "Change Request Logging",
+            "description": "All changes must be logged with a detailed request.",
+            "standard_id": "STD-CRM-001"
+          },
+          {
+            "id": "CTRL-CRM-002",
+            "name": "Change Impact Assessment",
+            "description": "Impact of changes must be assessed before approval.",
+            "standard_id": "STD-CRM-001"
+          },
+          {
+            "id": "CTRL-CRM-003",
+            "name": "Change Approval Process",
+            "description": "All changes must be approved by authorized personnel.",
+            "standard_id": "STD-CRM-001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "RISK-CRM-001",
+            "name": "Unlogged Changes",
+            "description": "Changes made without logging could bypass controls.",
+            "control_id": "CTRL-CRM-001"
+          },
+          {
+            "id": "RISK-CRM-002",
+            "name": "Improper Change Specification",
+            "description": "Insufficient details in change requests could lead to errors.",
+            "control_id": "CTRL-CRM-001"
+          },
+          {
+            "id": "RISK-CRM-003",
+            "name": "Unassessed Changes",
+            "description": "Changes implemented without assessment could negatively impact services.",
+            "control_id": "CTRL-CRM-002"
+          },
+          {
+            "id": "RISK-CRM-004",
+            "name": "Inadequate Risk Assessment",
+            "description": "Not identifying all risks during assessment could lead to service disruptions.",
+            "control_id": "CTRL-CRM-002"
+          },
+          {
+            "id": "RISK-CRM-005",
+            "name": "Unauthorized Changes",
+            "description": "Changes made without proper approval could introduce vulnerabilities.",
+            "control_id": "CTRL-CRM-003"
+          },
+          {
+            "id": "RISK-CRM-006",
+            "name": "Inefficiency in Change Process",
+            "description": "Delays in approval could slow down deployment of critical changes.",
+            "control_id": "CTRL-CRM-003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Incident and Problem Management",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "STD001",
+          "name": "ISO 20000",
+          "description": "ISO/IEC 20000 is the international standard for IT service management."
+        },
+        "controls": [
+          {
+            "id": "CTRL001",
+            "name": "Incident Logging",
+            "description": "Ensure all incidents are logged immediately in the incident management system.",
+            "standard_id": "STD001"
+          },
+          {
+            "id": "CTRL002",
+            "name": "Root Cause Analysis",
+            "description": "Perform root cause analysis for all major incidents to prevent recurrence.",
+            "standard_id": "STD001"
+          },
+          {
+            "id": "CTRL003",
+            "name": "Incident Resolution",
+            "description": "Resolve incidents within the defined SLA to ensure minimal business disruption.",
+            "standard_id": "STD001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "RISK001",
+            "name": "Unlogged Incidents",
+            "description": "Incidents may not be addressed in a timely manner if they are not logged.",
+            "control_id": "CTRL001"
+          },
+          {
+            "id": "RISK002",
+            "name": "Incomplete Logging",
+            "description": "Incomplete incident logging may lead to inadequate resolution and future incidents.",
+            "control_id": "CTRL001"
+          },
+          {
+            "id": "RISK003",
+            "name": "Unidentified Root Cause",
+            "description": "Failure to identify the root cause can lead to recurrent incidents.",
+            "control_id": "CTRL002"
+          },
+          {
+            "id": "RISK004",
+            "name": "Delayed Resolution",
+            "description": "Failure to resolve incidents within SLA can result in extended business downtime.",
+            "control_id": "CTRL003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Performance and Capacity Management",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "STD001",
+          "name": "CAPM",
+          "description": "Capacity and Performance Management Standard"
+        },
+        "controls": [
+          {
+            "id": "CTRL001",
+            "name": "Monitor System Performance",
+            "description": "Regularly monitor and measure system performance metrics to ensure optimal operation.",
+            "standard_id": "STD001"
+          },
+          {
+            "id": "CTRL002",
+            "name": "Capacity Planning",
+            "description": "Develop and maintain a capacity plan to ensure that the computing resources are adequate for future business needs.",
+            "standard_id": "STD001"
+          },
+          {
+            "id": "CTRL003",
+            "name": "Performance Testing",
+            "description": "Conduct performance testing to identify potential bottlenecks and ensure scalability of applications.",
+            "standard_id": "STD001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "RSK001",
+            "name": "System Overload",
+            "description": "Failure to monitor systems could result in unexpected system overloads and downtime.",
+            "control_id": "CTRL001"
+          },
+          {
+            "id": "RSK002",
+            "name": "Insufficient Capacity",
+            "description": "Lack of proper capacity planning might lead to insufficient resources, impacting business operations.",
+            "control_id": "CTRL002"
+          },
+          {
+            "id": "RSK003",
+            "name": "Undetected Performance Issues",
+            "description": "Performance issues may go undetected without regular performance testing, leading to poor user experience.",
+            "control_id": "CTRL003"
+          },
+          {
+            "id": "RSK004",
+            "name": "Scalability Issues",
+            "description": "Inadequate scalability measures can hamper the system's ability to handle increased load.",
+            "control_id": "CTRL003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Network Engineering",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "NET-STD-001",
+          "name": "Network Security Standard",
+          "description": "Ensures the security and integrity of network infrastructure."
+        },
+        "controls": [
+          {
+            "id": "NET-CTRL-001",
+            "name": "Firewall Management",
+            "description": "Manage and monitor firewall configurations to prevent unauthorized access.",
+            "standard_id": "NET-STD-001"
+          },
+          {
+            "id": "NET-CTRL-002",
+            "name": "Network Access Control",
+            "description": "Implement NAC to ensure only authorized devices can connect to the network.",
+            "standard_id": "NET-STD-001"
+          },
+          {
+            "id": "NET-CTRL-003",
+            "name": "Intrusion Detection System",
+            "description": "Deploy and maintain IDS to detect and respond to network threats.",
+            "standard_id": "NET-STD-001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "NET-RISK-001",
+            "name": "Unauthorized Access",
+            "description": "Risk of unauthorized individuals gaining access to the network.",
+            "control_id": "NET-CTRL-001"
+          },
+          {
+            "id": "NET-RISK-002",
+            "name": "Firewall Misconfiguration",
+            "description": "Incorrect firewall settings can lead to vulnerabilities.",
+            "control_id": "NET-CTRL-001"
+          },
+          {
+            "id": "NET-RISK-003",
+            "name": "Uncontrolled Device Access",
+            "description": "Devices without proper authorization can connect to the network, posing risks.",
+            "control_id": "NET-CTRL-002"
+          },
+          {
+            "id": "NET-RISK-004",
+            "name": "Network Intrusion",
+            "description": "Potential for network breaches due to insufficient monitoring.",
+            "control_id": "NET-CTRL-003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "IT Disaster Recovery",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "STD-001",
+          "name": "Disaster Recovery Standard",
+          "description": "Guidelines for ensuring continuity and recovery of IT systems in the event of a disaster."
+        },
+        "controls": [
+          {
+            "id": "CTRL-001",
+            "name": "Data Backup",
+            "description": "Regular backups of critical data to ensure it can be restored in case of data loss.",
+            "standard_id": "STD-001"
+          },
+          {
+            "id": "CTRL-002",
+            "name": "Disaster Recovery Plan",
+            "description": "Comprehensive plan outlining procedures and responsibilities for disaster recovery.",
+            "standard_id": "STD-001"
+          },
+          {
+            "id": "CTRL-003",
+            "name": "Recovery Testing",
+            "description": "Regular testing of disaster recovery procedures to ensure effectiveness.",
+            "standard_id": "STD-001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "RISK-001",
+            "name": "Data Loss",
+            "description": "Risk of losing critical data due to insufficient backup processes or failures.",
+            "control_id": "CTRL-001"
+          },
+          {
+            "id": "RISK-002",
+            "name": "Slow Recovery",
+            "description": "Delayed recovery process due to an incomplete or poorly constructed disaster recovery plan.",
+            "control_id": "CTRL-002"
+          },
+          {
+            "id": "RISK-003",
+            "name": "Unsuccessful Recovery",
+            "description": "Risk of recovery processes failing during an actual disaster due to inadequate testing.",
+            "control_id": "CTRL-003"
+          },
+          {
+            "id": "RISK-004",
+            "name": "Resource Unavailability",
+            "description": "Critical resource shortages during disaster recovery due to incomplete planning.",
+            "control_id": "CTRL-002"
+          },
+          {
+            "id": "RISK-005",
+            "name": "Backup Corruption",
+            "description": "Risk of backup data being corrupted or unusable when needed for recovery.",
+            "control_id": "CTRL-001"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Asset and Inventory Management",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "STD001",
+          "name": "Asset Management Standard",
+          "description": "Guidelines and practices for managing and controlling company assets."
+        },
+        "controls": [
+          {
+            "id": "CTRL001",
+            "name": "Asset Identification and Classification",
+            "description": "Ensure all company assets are identified, classified, and recorded accurately.",
+            "standard_id": "STD001"
+          },
+          {
+            "id": "CTRL002",
+            "name": "Inventory Audit and Reconciliation",
+            "description": "Regular audits and reconciliations of physical inventory against records.",
+            "standard_id": "STD001"
+          },
+          {
+            "id": "CTRL003",
+            "name": "Access Control for Asset Management Systems",
+            "description": "Restrict access to asset management systems to authorized personnel only.",
+            "standard_id": "STD001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "RSK001",
+            "name": "Inaccurate Asset Records",
+            "description": "Risk of having inaccurate or incomplete records of assets, leading to financial discrepancies.",
+            "control_id": "CTRL001"
+          },
+          {
+            "id": "RSK002",
+            "name": "Unauthorized Access to Asset Information",
+            "description": "Risk of unauthorized individuals accessing sensitive asset information, leading to data breaches or asset misuse.",
+            "control_id": "CTRL001"
+          },
+          {
+            "id": "RSK003",
+            "name": "Discrepancies in Physical Inventory",
+            "description": "Risk of discrepancies between physical inventory and recorded inventory, leading to potential loss or theft.",
+            "control_id": "CTRL002"
+          },
+          {
+            "id": "RSK004",
+            "name": "Unauthorized System Access",
+            "description": "Risk of unauthorized access to asset management systems, leading to potential tampering or data corruption.",
+            "control_id": "CTRL003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "BCM- Incident Management",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "STD-001",
+          "name": "Incident Response Standard",
+          "description": "This standard ensures effective incident management and response."
+        },
+        "controls": [
+          {
+            "id": "CTRL-001",
+            "name": "Incident Identification and Reporting",
+            "description": "Identify and report incidents in a timely manner.",
+            "standard_id": "STD-001"
+          },
+          {
+            "id": "CTRL-002",
+            "name": "Incident Classification and Prioritization",
+            "description": "Classify and prioritize incidents based on their impact and urgency.",
+            "standard_id": "STD-001"
+          },
+          {
+            "id": "CTRL-003",
+            "name": "Incident Resolution and Recovery",
+            "description": "Manage the resolution and recovery of incidents to restore normal service.",
+            "standard_id": "STD-001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "RSK-001",
+            "name": "Delayed Incident Reporting",
+            "description": "Delayed reporting of incidents may result in prolonged impact and resolution time.",
+            "control_id": "CTRL-001"
+          },
+          {
+            "id": "RSK-002",
+            "name": "Incorrect Classification",
+            "description": "Incorrect classification of incidents may lead to improper prioritization and handling.",
+            "control_id": "CTRL-002"
+          },
+          {
+            "id": "RSK-003",
+            "name": "Incomplete Recovery",
+            "description": "Incomplete recovery actions may cause repeated incidents and affect service continuity.",
+            "control_id": "CTRL-003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Technology Third Party Management",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "STD-TPM-001",
+          "name": "Vendor Management Standard",
+          "description": "Guidelines and requirements for managing third-party technology vendors."
+        },
+        "controls": [
+          {
+            "id": "CTRL-TPM-001",
+            "name": "Vendor Risk Assessment",
+            "description": "Conduct regular risk assessments on third-party vendors to identify potential vulnerabilities.",
+            "standard_id": "STD-TPM-001"
+          },
+          {
+            "id": "CTRL-TPM-002",
+            "name": "Contractual Obligations Review",
+            "description": "Ensure that contracts with third-party vendors include necessary security and compliance clauses.",
+            "standard_id": "STD-TPM-001"
+          },
+          {
+            "id": "CTRL-TPM-003",
+            "name": "Ongoing Monitoring",
+            "description": "Implement ongoing monitoring procedures to track vendor compliance with contractual and security obligations.",
+            "standard_id": "STD-TPM-001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "RISK-TPM-001",
+            "name": "Security Breach Risk",
+            "description": "Risk of a security breach due to inadequate vendor risk assessment.",
+            "control_id": "CTRL-TPM-001"
+          },
+          {
+            "id": "RISK-TPM-002",
+            "name": "Compliance Risk",
+            "description": "Risk of non-compliance with regulatory requirements due to insufficient review of contractual obligations.",
+            "control_id": "CTRL-TPM-002"
+          },
+          {
+            "id": "RISK-TPM-003",
+            "name": "Vendor Non-compliance Risk",
+            "description": "Risk of vendors failing to meet agreed-upon security and compliance standards.",
+            "control_id": "CTRL-TPM-003"
+          },
+          {
+            "id": "RISK-TPM-004",
+            "name": "Operational Disruption Risk",
+            "description": "Risk of operational disruptions due to vendor performance issues.",
+            "control_id": "CTRL-TPM-003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Business Continuity Management [BCM]",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "BCM-STD-001",
+          "name": "ISO 22301",
+          "description": "International standard for Business Continuity Management Systems (BCMS)"
+        },
+        "controls": [
+          {
+            "id": "BCM-CTL-001",
+            "name": "Business Impact Analysis",
+            "description": "Identify and evaluate the impact of disruptions to business operations.",
+            "standard_id": "BCM-STD-001"
+          },
+          {
+            "id": "BCM-CTL-002",
+            "name": "Recovery Strategy",
+            "description": "Develop recovery strategies to restore business operations.",
+            "standard_id": "BCM-STD-001"
+          },
+          {
+            "id": "BCM-CTL-003",
+            "name": "BCM Plan Development",
+            "description": "Create and maintain Business Continuity Management plans.",
+            "standard_id": "BCM-STD-001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "BCM-RSK-001",
+            "name": "Inaccurate Impact Assessment",
+            "description": "Failing to accurately determine the impact of disruptions can lead to inadequate recovery plans.",
+            "control_id": "BCM-CTL-001"
+          },
+          {
+            "id": "BCM-RSK-002",
+            "name": "Resource Shortage",
+            "description": "Lack of resources can hinder the execution of recovery strategies.",
+            "control_id": "BCM-CTL-002"
+          },
+          {
+            "id": "BCM-RSK-003",
+            "name": "BCM Plan Incompleteness",
+            "description": "Missing critical components in the BCM plan can lead to ineffective response during disruptions.",
+            "control_id": "BCM-CTL-003"
+          },
+          {
+            "id": "BCM-RSK-004",
+            "name": "Outdated BCM Plan",
+            "description": "An outdated BCM plan can be ineffective in addressing current risks and disruptions.",
+            "control_id": "BCM-CTL-003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Cyber Risk Management",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "STD-001",
+          "name": "Cybersecurity Standard",
+          "description": "Standard for managing and mitigating cybersecurity risks."
+        },
+        "controls": [
+          {
+            "id": "CTRL-001",
+            "name": "Access Control",
+            "description": "Implementing measures to ensure that only authorized individuals have access to critical systems and data.",
+            "standard_id": "STD-001"
+          },
+          {
+            "id": "CTRL-002",
+            "name": "Incident Response",
+            "description": "Establishing an incident response plan to address and manage the aftermath of a security breach or cyberattack.",
+            "standard_id": "STD-001"
+          },
+          {
+            "id": "CTRL-003",
+            "name": "Regular Audits",
+            "description": "Conducting regular security audits and assessments to identify vulnerabilities and ensure compliance with security policies.",
+            "standard_id": "STD-001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "RSK-001",
+            "name": "Unauthorized Access",
+            "description": "Risk of unauthorized individuals gaining access to sensitive information, potentially leading to data breaches or other malicious activities.",
+            "control_id": "CTRL-001"
+          },
+          {
+            "id": "RSK-002",
+            "name": "Access Control Failure",
+            "description": "Risk that access control measures are bypassed or fail, resulting in unauthorized access.",
+            "control_id": "CTRL-001"
+          },
+          {
+            "id": "RSK-003",
+            "name": "Delayed Incident Response",
+            "description": "Risk of delays in identifying and responding to security incidents, increasing the potential impact of cyber threats.",
+            "control_id": "CTRL-002"
+          },
+          {
+            "id": "RSK-004",
+            "name": "Ineffective Incident Management",
+            "description": "Risk that incident response efforts are insufficient or improperly executed, leading to prolonged recovery times and increased damage.",
+            "control_id": "CTRL-002"
+          },
+          {
+            "id": "RSK-005",
+            "name": "Audit Inconsistencies",
+            "description": "Risk that audits fail to uncover existing vulnerabilities or are not conducted according to set standards.",
+            "control_id": "CTRL-003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Software Distribution",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "STD-001",
+          "name": "SDLC Standard",
+          "description": "Standard guidelines for the Software Development Life Cycle."
+        },
+        "controls": [
+          {
+            "id": "CTRL-001",
+            "name": "Code Review",
+            "description": "All code changes must be reviewed by at least one independent reviewer.",
+            "standard_id": "STD-001"
+          },
+          {
+            "id": "CTRL-002",
+            "name": "Automated Testing",
+            "description": "Automated tests must be run for all code changes before they are merged.",
+            "standard_id": "STD-001"
+          },
+          {
+            "id": "CTRL-003",
+            "name": "Version Control",
+            "description": "All source code must be stored in a version control system.",
+            "standard_id": "STD-001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "RISK-001",
+            "name": "Unreviewed Code",
+            "description": "Code changes are not reviewed and contain bugs or security vulnerabilities.",
+            "control_id": "CTRL-001"
+          },
+          {
+            "id": "RISK-002",
+            "name": "Test Failures",
+            "description": "Automated tests fail and code with bugs is merged, causing system issues.",
+            "control_id": "CTRL-002"
+          },
+          {
+            "id": "RISK-003",
+            "name": "Lack of Version Control",
+            "description": "Changes to the codebase are not tracked, leading to potential loss of data and accountability.",
+            "control_id": "CTRL-003"
+          },
+          {
+            "id": "RISK-004",
+            "name": "Unverified Code Changes",
+            "description": "Code changes that bypass automated testing may lead to stability issues.",
+            "control_id": "CTRL-002"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Job Scheduling",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "STD1001",
+          "name": "Job Scheduling Standard",
+          "description": "Standard for ensuring efficient and reliable job scheduling."
+        },
+        "controls": [
+          {
+            "id": "CTRL1001",
+            "name": "Job Queue Monitoring",
+            "description": "Monitor the job queue to ensure jobs are processed in a timely manner.",
+            "standard_id": "STD1001"
+          },
+          {
+            "id": "CTRL1002",
+            "name": "Job Conflict Resolution",
+            "description": "Identify and resolve conflicts between scheduled jobs to prevent overlaps and resource contention.",
+            "standard_id": "STD1001"
+          },
+          {
+            "id": "CTRL1003",
+            "name": "Job Execution Verification",
+            "description": "Verify the successful execution of jobs and handle any failures or errors promptly.",
+            "standard_id": "STD1001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "RISK1001",
+            "name": "Job Queue Overflow",
+            "description": "A large number of jobs in the queue may delay job processing.",
+            "control_id": "CTRL1001"
+          },
+          {
+            "id": "RISK1002",
+            "name": "Job Mismanagement",
+            "description": "Conflicts between jobs may lead to resource contention and job failures.",
+            "control_id": "CTRL1002"
+          },
+          {
+            "id": "RISK1003",
+            "name": "Job Execution Failure",
+            "description": "Failure to execute jobs correctly can lead to data loss or system downtime.",
+            "control_id": "CTRL1003"
+          },
+          {
+            "id": "RISK1004",
+            "name": "Error Handling Delay",
+            "description": "Delays in handling job execution errors may impact system reliability.",
+            "control_id": "CTRL1003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Data Management",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "STD-DM01",
+          "name": "ISO 27001",
+          "description": "Standard for managing information security."
+        },
+        "controls": [
+          {
+            "id": "CTRL-DM01",
+            "name": "Access Control Management",
+            "description": "Ensure that access to data is restricted to authorized personnel only.",
+            "standard_id": "STD-DM01"
+          },
+          {
+            "id": "CTRL-DM02",
+            "name": "Data Encryption",
+            "description": "Encrypt sensitive data both at rest and in transit to protect against unauthorized access.",
+            "standard_id": "STD-DM01"
+          },
+          {
+            "id": "CTRL-DM03",
+            "name": "Data Backup and Recovery",
+            "description": "Regularly back up data and have a recovery plan in place to ensure data integrity.",
+            "standard_id": "STD-DM01"
+          }
+        ],
+        "risks": [
+          {
+            "id": "RISK-DM01",
+            "name": "Unauthorized Access",
+            "description": "Unauthorized personnel may access and manipulate sensitive data.",
+            "control_id": "CTRL-DM01"
+          },
+          {
+            "id": "RISK-DM02",
+            "name": "Data Breach",
+            "description": "Sensitive data may be exposed due to weak encryption practices.",
+            "control_id": "CTRL-DM02"
+          },
+          {
+            "id": "RISK-DM03",
+            "name": "Data Loss",
+            "description": "Critical data may be lost due to inadequate backup and recovery procedures.",
+            "control_id": "CTRL-DM03"
+          },
+          {
+            "id": "RISK-DM04",
+            "name": "Data Corruption",
+            "description": "Backup data may be corrupted, affecting the integrity of recovery.",
+            "control_id": "CTRL-DM03"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "IT Financial Management",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "STD-001",
+          "name": "COBIT 2019",
+          "description": "A framework for developing, implementing, monitoring, and improving IT governance and management practices."
+        },
+        "controls": [
+          {
+            "id": "CTRL-001",
+            "name": "Budget Planning and Management",
+            "description": "Ensure that IT budgets are planned and managed effectively to support business objectives.",
+            "standard_id": "STD-001"
+          },
+          {
+            "id": "CTRL-002",
+            "name": "Cost Management",
+            "description": "Establish a cost management framework to track and control IT expenses.",
+            "standard_id": "STD-001"
+          },
+          {
+            "id": "CTRL-003",
+            "name": "Financial Performance Measurement",
+            "description": "Measure and monitor financial performance to ensure that IT investments deliver expected business value.",
+            "standard_id": "STD-001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "RISK-001",
+            "name": "Budget Overruns",
+            "description": "Risk of exceeding the planned IT budget due to unforeseen expenses or poor budget management.",
+            "control_id": "CTRL-001"
+          },
+          {
+            "id": "RISK-002",
+            "name": "Inadequate Cost Tracking",
+            "description": "Risk of failing to accurately track and manage IT costs, leading to financial inefficiencies.",
+            "control_id": "CTRL-002"
+          },
+          {
+            "id": "RISK-003",
+            "name": "Poor ROI",
+            "description": "Risk of IT investments not delivering the expected return on investment, leading to financial losses.",
+            "control_id": "CTRL-003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Encryption Management",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "STD-ENCRYPT-001",
+          "name": "Encryption Standard",
+          "description": "Standard guidelines for encryption management."
+        },
+        "controls": [
+          {
+            "id": "CTRL-ENCRYPT-001",
+            "name": "Data Encryption at Rest",
+            "description": "Ensures that all sensitive data is encrypted when stored.",
+            "standard_id": "STD-ENCRYPT-001"
+          },
+          {
+            "id": "CTRL-ENCRYPT-002",
+            "name": "Data Encryption in Transit",
+            "description": "Secures sensitive data by encrypting it during transmission.",
+            "standard_id": "STD-ENCRYPT-001"
+          },
+          {
+            "id": "CTRL-ENCRYPT-003",
+            "name": "Encryption Key Management",
+            "description": "Manages encryption keys securely and ensures regular key rotation.",
+            "standard_id": "STD-ENCRYPT-001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "RISK-ENCRYPT-001",
+            "name": "Unauthorized Data Access",
+            "description": "Risk of unauthorized access to sensitive data if encryption is not properly implemented.",
+            "control_id": "CTRL-ENCRYPT-001"
+          },
+          {
+            "id": "RISK-ENCRYPT-002",
+            "name": "Data Breach During Transmission",
+            "description": "Risk of data being intercepted during transmission without proper encryption.",
+            "control_id": "CTRL-ENCRYPT-002"
+          },
+          {
+            "id": "RISK-ENCRYPT-003",
+            "name": "Key Compromise",
+            "description": "Risk of encryption keys being stolen or compromised, leading to potential data breaches.",
+            "control_id": "CTRL-ENCRYPT-003"
+          },
+          {
+            "id": "RISK-ENCRYPT-004",
+            "name": "Key Mismanagement",
+            "description": "Risk of improper key management practices leading to loss of sensitive data.",
+            "control_id": "CTRL-ENCRYPT-003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Patch Management",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "STD-PM-001",
+          "name": "ISO/IEC 27002",
+          "description": "Standards for information security controls."
+        },
+        "controls": [
+          {
+            "id": "CTRL-PM-001-01",
+            "name": "Patch Deployment Schedule",
+            "description": "Establish a regular patch deployment schedule to ensure all systems are up to date with the latest patches.",
+            "standard_id": "STD-PM-001"
+          },
+          {
+            "id": "CTRL-PM-001-02",
+            "name": "Patch Testing",
+            "description": "Test patches in a controlled environment before deployment to minimize disruptions and verify compatibility.",
+            "standard_id": "STD-PM-001"
+          },
+          {
+            "id": "CTRL-PM-001-03",
+            "name": "Patch Documentation",
+            "description": "Maintain detailed documentation of all patches, including date of deployment, systems affected, and any issues encountered.",
+            "standard_id": "STD-PM-001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "RISK-PM-001-01-01",
+            "name": "Unpatched Vulnerabilities",
+            "description": "If patches are not deployed regularly, systems may be vulnerable to known security threats.",
+            "control_id": "CTRL-PM-001-01"
+          },
+          {
+            "id": "RISK-PM-001-01-02",
+            "name": "Patch Failure",
+            "description": "The failure to deploy a patch successfully can leave systems unprotected.",
+            "control_id": "CTRL-PM-001-01"
+          },
+          {
+            "id": "RISK-PM-001-02-01",
+            "name": "Compatibility Issues",
+            "description": "Patches may cause compatibility issues with existing applications, leading to potential downtime.",
+            "control_id": "CTRL-PM-001-02"
+          },
+          {
+            "id": "RISK-PM-001-02-02",
+            "name": "Testing Inefficiencies",
+            "description": "Inadequate testing may result in overlooked issues, causing larger problems upon deployment.",
+            "control_id": "CTRL-PM-001-02"
+          },
+          {
+            "id": "RISK-PM-001-03-01",
+            "name": "Incomplete Documentation",
+            "description": "Failure to maintain proper documentation can lead to gaps in patch management records and troubleshooting difficulties.",
+            "control_id": "CTRL-PM-001-03"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Vulnerability Management",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "VM-STD-001",
+          "name": "Vulnerability Management Standard",
+          "description": "Guidelines for managing vulnerabilities in systems and applications."
+        },
+        "controls": [
+          {
+            "id": "VM-CONT-001",
+            "name": "Regular Vulnerability Scanning",
+            "description": "Conduct regular scans to identify vulnerabilities in the system.",
+            "standard_id": "VM-STD-001"
+          },
+          {
+            "id": "VM-CONT-002",
+            "name": "Patch Management",
+            "description": "Ensure timely application of patches to mitigate identified vulnerabilities.",
+            "standard_id": "VM-STD-001"
+          },
+          {
+            "id": "VM-CONT-003",
+            "name": "Vulnerability Assessment",
+            "description": "Perform comprehensive assessments to evaluate and prioritize vulnerabilities.",
+            "standard_id": "VM-STD-001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "VM-RISK-001",
+            "name": "Unidentified Vulnerabilities",
+            "description": "Risk of vulnerabilities not being identified due to infrequent scans.",
+            "control_id": "VM-CONT-001"
+          },
+          {
+            "id": "VM-RISK-002",
+            "name": "Delayed Patching",
+            "description": "Risk of vulnerabilities being exploited due to delayed patching.",
+            "control_id": "VM-CONT-002"
+          },
+          {
+            "id": "VM-RISK-003",
+            "name": "Incomplete Assessment",
+            "description": "Risk of not fully assessing vulnerabilities, leading to oversight.",
+            "control_id": "VM-CONT-003"
+          },
+          {
+            "id": "VM-RISK-004",
+            "name": "Incorrect Prioritization",
+            "description": "Risk of incorrectly prioritizing vulnerabilities, leading to resource misallocation.",
+            "control_id": "VM-CONT-003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Technology Action Driver Management",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "STD-001",
+          "name": "ISO/IEC 27001",
+          "description": "International standard for information security management systems (ISMS)."
+        },
+        "controls": [
+          {
+            "id": "CNT-001",
+            "name": "Access Control Policy",
+            "description": "Establishing and managing an access control policy.",
+            "standard_id": "STD-001"
+          },
+          {
+            "id": "CNT-002",
+            "name": "Incident Management Policy",
+            "description": "Properly managing and responding to IT and security incidents.",
+            "standard_id": "STD-001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "RSK-001",
+            "name": "Unauthorized Access Risk",
+            "description": "Risk of unauthorized access to sensitive information due to inadequate access controls.",
+            "control_id": "CNT-001"
+          },
+          {
+            "id": "RSK-002",
+            "name": "Data Breach Risk",
+            "description": "Risk of data breaches resulting from improper handling of security incidents.",
+            "control_id": "CNT-002"
+          },
+          {
+            "id": "RSK-003",
+            "name": "Delayed Incident Response Risk",
+            "description": "Risk of delayed response to security incidents leading to increased damage.",
+            "control_id": "CNT-002"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Technology Metrics Reporting",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "STD-001",
+          "name": "Metrics Reporting Standard",
+          "description": "Standard for reporting technology metrics to ensure accuracy and consistency."
+        },
+        "controls": [
+          {
+            "id": "CTRL-001",
+            "name": "Data Validation Control",
+            "description": "Ensures all reported data is validated for accuracy.",
+            "standard_id": "STD-001"
+          },
+          {
+            "id": "CTRL-002",
+            "name": "Access Control",
+            "description": "Restricts access to metric reporting tools to authorized personnel only.",
+            "standard_id": "STD-001"
+          },
+          {
+            "id": "CTRL-003",
+            "name": "Reporting Frequency",
+            "description": "Mandates regular reporting intervals to maintain up-to-date metrics.",
+            "standard_id": "STD-001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "RISK-001",
+            "name": "Data Inaccuracy",
+            "description": "Risk of reporting inaccurate metrics due to lack of validation.",
+            "control_id": "CTRL-001"
+          },
+          {
+            "id": "RISK-002",
+            "name": "Unauthorized Access",
+            "description": "Risk of unauthorized personnel accessing and manipulating metrics.",
+            "control_id": "CTRL-002"
+          },
+          {
+            "id": "RISK-003",
+            "name": "Outdated Metrics",
+            "description": "Risk of using outdated information due to irregular reporting intervals.",
+            "control_id": "CTRL-003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Application Portfolio Management (APM)",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "STM-0001",
+          "name": "APM Standard",
+          "description": "Standard for managing the application portfolio efficiently"
+        },
+        "controls": [
+          {
+            "id": "CTRL-0001",
+            "name": "Application Inventory Management",
+            "description": "Ensure all applications are catalogued and regularly updated",
+            "standard_id": "STM-0001"
+          },
+          {
+            "id": "CTRL-0002",
+            "name": "Application Lifecycle Management",
+            "description": "Manage the lifecycle of applications from onboarding to retirement",
+            "standard_id": "STM-0001"
+          },
+          {
+            "id": "CTRL-0003",
+            "name": "Application Performance Monitoring",
+            "description": "Monitor and report application performance metrics",
+            "standard_id": "STM-0001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "RISK-0001",
+            "name": "Incomplete Application Inventory",
+            "description": "Risk of having an incomplete record of applications, leading to unmanaged or redundant applications",
+            "control_id": "CTRL-0001"
+          },
+          {
+            "id": "RISK-0002",
+            "name": "Outdated Application Information",
+            "description": "Risk of having outdated information on applications, affecting decision-making",
+            "control_id": "CTRL-0001"
+          },
+          {
+            "id": "RISK-0003",
+            "name": "Lifecycle Management Failures",
+            "description": "Risk of failing to manage the full lifecycle of applications, leading to security vulnerabilities or obsolete applications",
+            "control_id": "CTRL-0002"
+          },
+          {
+            "id": "RISK-0004",
+            "name": "Performance Degradation",
+            "description": "Risk of applications experiencing performance issues due to lack of monitoring",
+            "control_id": "CTRL-0003"
+          },
+          {
+            "id": "RISK-0005",
+            "name": "Unreported Incidents",
+            "description": "Risk of incidents not being reported due to lack of performance monitoring",
+            "control_id": "CTRL-0003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Privilege Access Management (PAM)",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "STD-PAM-001",
+          "name": "ISO/IEC 27001",
+          "description": "International standard for information security management."
+        },
+        "controls": [
+          {
+            "id": "CTL-PAM-001",
+            "name": "User Access Review",
+            "description": "Regular reviews of user access rights to ensure they are appropriate for their role.",
+            "standard_id": "STD-PAM-001"
+          },
+          {
+            "id": "CTL-PAM-002",
+            "name": "Multi-factor Authentication",
+            "description": "Implementation of multi-factor authentication for all privileged accounts.",
+            "standard_id": "STD-PAM-001"
+          },
+          {
+            "id": "CTL-PAM-003",
+            "name": "Least Privilege Principle",
+            "description": "Enforcement of least privilege principle, ensuring users have the minimum level of access needed for their role.",
+            "standard_id": "STD-PAM-001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "RSK-PAM-001",
+            "name": "Unauthorized Access",
+            "description": "Risk of users gaining access to systems or data they are not authorized to view or modify.",
+            "control_id": "CTL-PAM-001"
+          },
+          {
+            "id": "RSK-PAM-002",
+            "name": "Access Rights Mismanagement",
+            "description": "Risk of incorrectly assigned or forgotten access rights leading to potential security breaches.",
+            "control_id": "CTL-PAM-001"
+          },
+          {
+            "id": "RSK-PAM-003",
+            "name": "Credential Theft",
+            "description": "Risk of credentials being stolen and used to gain unauthorized access.",
+            "control_id": "CTL-PAM-002"
+          },
+          {
+            "id": "RSK-PAM-004",
+            "name": "Inadequate Access Control",
+            "description": "Risk of insufficient access controls allowing unauthorized access.",
+            "control_id": "CTL-PAM-003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Physical and Environmental Security",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "ST001",
+          "name": "ISO/IEC 27001",
+          "description": "International standard for information security management systems (ISMS)."
+        },
+        "controls": [
+          {
+            "id": "C001",
+            "name": "Secure Area Perimeters",
+            "description": "Physical security perimeters (barriers such as walls or card-controlled entry gates) should be used to protect areas that contain either sensitive or critical information and information processing facilities.",
+            "standard_id": "ST001"
+          },
+          {
+            "id": "C002",
+            "name": "Physical Entry Controls",
+            "description": "Secure areas should be protected by appropriate entry controls to ensure that only authorized personnel are allowed access.",
+            "standard_id": "ST001"
+          },
+          {
+            "id": "C003",
+            "name": "Equipment Security",
+            "description": "Equipment should be located and protected to reduce the risks from environmental threats and hazards, and opportunities for unauthorized access.",
+            "standard_id": "ST001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "R001",
+            "name": "Unauthorized Access",
+            "description": "Risk of unauthorized personnel gaining access to secure areas, leading to potential data breaches or theft.",
+            "control_id": "C001"
+          },
+          {
+            "id": "R002",
+            "name": "Physical Intrusion",
+            "description": "Risk of physical intrusion into restricted areas, compromising the integrity and confidentiality of information.",
+            "control_id": "C001"
+          },
+          {
+            "id": "R003",
+            "name": "Tailgating",
+            "description": "Unauthorized individuals following authorized personnel into secure areas without appropriate credentials.",
+            "control_id": "C002"
+          },
+          {
+            "id": "R004",
+            "name": "Theft of Equipment",
+            "description": "Risk of equipment theft leading to potential data loss or unauthorized access to sensitive information.",
+            "control_id": "C003"
+          },
+          {
+            "id": "R005",
+            "name": "Environmental Damage",
+            "description": "Risks such as fire, flooding, or extreme temperatures causing damage to equipment and data.",
+            "control_id": "C003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Systems Development Lifecycle (SDLC)",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "STD-SDLC-001",
+          "name": "SDLC Best Practices",
+          "description": "Standard to ensure adherence to SDLC best practices."
+        },
+        "controls": [
+          {
+            "id": "CTRL-SDLC-001",
+            "name": "Requirements Analysis",
+            "description": "Ensure thorough requirements analysis is conducted before development begins.",
+            "standard_id": "STD-SDLC-001"
+          },
+          {
+            "id": "CTRL-SDLC-002",
+            "name": "Code Review",
+            "description": "Conduct regular code reviews to maintain code quality and security.",
+            "standard_id": "STD-SDLC-001"
+          },
+          {
+            "id": "CTRL-SDLC-003",
+            "name": "Testing and Validation",
+            "description": "Perform comprehensive testing and validation of software components before deployment.",
+            "standard_id": "STD-SDLC-001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "RISK-SDLC-001",
+            "name": "Incorrect Requirements",
+            "description": "Incorrect or incomplete requirements may lead to project failure.",
+            "control_id": "CTRL-SDLC-001"
+          },
+          {
+            "id": "RISK-SDLC-002",
+            "name": "Security Vulnerabilities",
+            "description": "Lack of code reviews may introduce security vulnerabilities.",
+            "control_id": "CTRL-SDLC-002"
+          },
+          {
+            "id": "RISK-SDLC-003",
+            "name": "Operational Failures",
+            "description": "Inadequate testing may result in software operational failures.",
+            "control_id": "CTRL-SDLC-003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Application Security",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "STD-001",
+          "name": "ISO/IEC 27001",
+          "description": "International standard for information security management systems."
+        },
+        "controls": [
+          {
+            "id": "CTRL-001",
+            "name": "Secure Code Review",
+            "description": "Regular code reviews should be conducted to identify security vulnerabilities and ensure compliance with secure coding standards.",
+            "standard_id": "STD-001"
+          },
+          {
+            "id": "CTRL-002",
+            "name": "Application Penetration Testing",
+            "description": "Conducting penetration tests on applications to identify and mitigate security vulnerabilities.",
+            "standard_id": "STD-001"
+          },
+          {
+            "id": "CTRL-003",
+            "name": "Input Validation",
+            "description": "All input data should be validated to prevent security vulnerabilities such as SQL injection and XSS.",
+            "standard_id": "STD-001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "RISK-001",
+            "name": "Vulnerabilities in Code",
+            "description": "Security vulnerabilities in the application code could lead to unauthorized access and data breaches.",
+            "control_id": "CTRL-001"
+          },
+          {
+            "id": "RISK-002",
+            "name": "Compliance Violations",
+            "description": "Failure to comply with secure coding standards could result in legal and regulatory penalties.",
+            "control_id": "CTRL-001"
+          },
+          {
+            "id": "RISK-003",
+            "name": "Unidentified Security Flaws",
+            "description": "Undiscovered security flaws could be exploited by malicious actors to compromise the application.",
+            "control_id": "CTRL-002"
+          },
+          {
+            "id": "RISK-004",
+            "name": "Mitigation Failure",
+            "description": "Inadequate mitigation of identified vulnerabilities during penetration testing could lead to exploitation.",
+            "control_id": "CTRL-002"
+          },
+          {
+            "id": "RISK-005",
+            "name": "Injection Attacks",
+            "description": "Improper input validation could expose the application to injection attacks such as SQL injection.",
+            "control_id": "CTRL-003"
+          },
+          {
+            "id": "RISK-006",
+            "name": "Cross-Site Scripting (XSS)",
+            "description": "Lack of proper input validation could result in cross-site scripting attacks.",
+            "control_id": "CTRL-003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Cyber Threat Intelligence",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "ST-001",
+          "name": "NIST Cybersecurity Framework",
+          "description": "A comprehensive framework to improve the cybersecurity posture of organizations."
+        },
+        "controls": [
+          {
+            "id": "CTL-001",
+            "name": "Threat Intelligence Gathering",
+            "description": "Regularly obtain and analyze threat intelligence from multiple sources.",
+            "standard_id": "ST-001"
+          },
+          {
+            "id": "CTL-002",
+            "name": "Threat Intelligence Sharing",
+            "description": "Share relevant threat intelligence with internal stakeholders and external partners.",
+            "standard_id": "ST-001"
+          },
+          {
+            "id": "CTL-003",
+            "name": "Threat Intelligence Analysis",
+            "description": "Perform in-depth analysis on gathered threat intelligence to identify potential threats and attack vectors.",
+            "standard_id": "ST-001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "R-001",
+            "name": "Incomplete Threat Intelligence",
+            "description": "Failure to gather comprehensive threat intelligence may lead to undetected threats.",
+            "control_id": "CTL-001"
+          },
+          {
+            "id": "R-002",
+            "name": "Delayed Threat Intelligence",
+            "description": "Delays in obtaining threat intelligence can result in late mitigation actions.",
+            "control_id": "CTL-001"
+          },
+          {
+            "id": "R-003",
+            "name": "Misinformation Sharing",
+            "description": "Sharing inaccurate threat intelligence can mislead stakeholders and partners.",
+            "control_id": "CTL-002"
+          },
+          {
+            "id": "R-004",
+            "name": "Overlooked Threats",
+            "description": "Inadequate analysis may lead to overlooking potential threats.",
+            "control_id": "CTL-003"
+          },
+          {
+            "id": "R-005",
+            "name": "False Positives",
+            "description": "Incorrect analysis may result in false positive alerts, leading to unnecessary actions.",
+            "control_id": "CTL-003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Security Logging and Monitoring",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "SLM-STD-001",
+          "name": "NIST SP 800-137",
+          "description": "National Institute of Standards and Technology Special Publication 800-137 provides Information Security Continuous Monitoring (ISCM) for Federal Information Systems and Organizations guidelines."
+        },
+        "controls": [
+          {
+            "id": "SLM-CTRL-001",
+            "name": "Log Management",
+            "description": "Ensure that all network activities are logged and monitored.",
+            "standard_id": "SLM-STD-001"
+          },
+          {
+            "id": "SLM-CTRL-002",
+            "name": "Alerting Mechanisms",
+            "description": "Implement alerting mechanisms for suspicious activities detected in logs.",
+            "standard_id": "SLM-STD-001"
+          },
+          {
+            "id": "SLM-CTRL-003",
+            "name": "Regular Audit Logs",
+            "description": "Conduct regular audits of logs to ensure compliance and detect anomalies.",
+            "standard_id": "SLM-STD-001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "SLM-RISK-001",
+            "name": "Undetected Security Breaches",
+            "description": "If network activities are not properly logged, security breaches may go undetected.",
+            "control_id": "SLM-CTRL-001"
+          },
+          {
+            "id": "SLM-RISK-002",
+            "name": "Alert Fatigue",
+            "description": "Excessive alerts can lead to alert fatigue, causing personnel to miss critical security events.",
+            "control_id": "SLM-CTRL-002"
+          },
+          {
+            "id": "SLM-RISK-003",
+            "name": "Non-Compliance",
+            "description": "Failure to conduct regular audits may result in non-compliance with regulatory requirements.",
+            "control_id": "SLM-CTRL-003"
+          },
+          {
+            "id": "SLM-RISK-004",
+            "name": "Missed Anomalies",
+            "description": "Inadequate audit practices can lead to missed detection of anomalies in logs.",
+            "control_id": "SLM-CTRL-003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Tech Risk Assessment and Control Testing",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "STD-001",
+          "name": "ISO/IEC 27001",
+          "description": "Information Security Management System standard."
+        },
+        "controls": [
+          {
+            "id": "CTRL-001",
+            "name": "Access Control Policy",
+            "description": "Ensure that access to information is restricted to authorized users.",
+            "standard_id": "STD-001"
+          },
+          {
+            "id": "CTRL-002",
+            "name": "Incident Management",
+            "description": "Establish and maintain procedures for managing incidents.",
+            "standard_id": "STD-001"
+          },
+          {
+            "id": "CTRL-003",
+            "name": "Cryptographic Controls",
+            "description": "Establish and use cryptographic controls where appropriate.",
+            "standard_id": "STD-001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "RISK-001",
+            "name": "Unauthorized Access",
+            "description": "Risk of unauthorized users gaining access to sensitive information.",
+            "control_id": "CTRL-001"
+          },
+          {
+            "id": "RISK-002",
+            "name": "Data Breach",
+            "description": "Risk of sensitive data being breached due to lack of access controls.",
+            "control_id": "CTRL-001"
+          },
+          {
+            "id": "RISK-003",
+            "name": "Prolonged Downtime",
+            "description": "Risk of prolonged downtime due to improperly managed incidents.",
+            "control_id": "CTRL-002"
+          },
+          {
+            "id": "RISK-004",
+            "name": "Data Integrity",
+            "description": "Risk of data corruption or loss due to inadequate cryptographic controls.",
+            "control_id": "CTRL-003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Network Security/Logical Security",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "NS001",
+          "name": "ISO/IEC 27001",
+          "description": "Information Security Management System standard."
+        },
+        "controls": [
+          {
+            "id": "CTL001",
+            "name": "Access Control Policy",
+            "description": "Ensure that access control policies are established and maintained based on business needs and security requirements.",
+            "standard_id": "NS001"
+          },
+          {
+            "id": "CTL002",
+            "name": "Network Security Management",
+            "description": "Ensure the protection of information in networks and the protection of the supporting infrastructure.",
+            "standard_id": "NS001"
+          },
+          {
+            "id": "CTL003",
+            "name": "Cryptographic Controls",
+            "description": "Ensure the proper and effective use of cryptography to protect the confidentiality, authenticity, and/or integrity of information.",
+            "standard_id": "NS001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "RSK001",
+            "name": "Unauthorized Access",
+            "description": "Unauthorized entities gaining access to sensitive information through insufficient access control mechanisms.",
+            "control_id": "CTL001"
+          },
+          {
+            "id": "RSK002",
+            "name": "Insider Threat",
+            "description": "Internal personnel abusing access privileges leading to data breaches or malicious activities.",
+            "control_id": "CTL001"
+          },
+          {
+            "id": "RSK003",
+            "name": "Network Intrusion",
+            "description": "Unauthorized access to the network leading to compromised systems and data breaches.",
+            "control_id": "CTL002"
+          },
+          {
+            "id": "RSK004",
+            "name": "Denial of Service Attack",
+            "description": "Disruption of services due to an attack overwhelming the network's resources.",
+            "control_id": "CTL002"
+          },
+          {
+            "id": "RSK005",
+            "name": "Weak Encryption",
+            "description": "Usage of obsolete or weak encryption methods leading to exposure of sensitive data.",
+            "control_id": "CTL003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Identity and Access Management",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "STD-001",
+          "name": "ISO/IEC 27001",
+          "description": "Information Security Management Standard"
+        },
+        "controls": [
+          {
+            "id": "CTRL-001",
+            "name": "User Access Review",
+            "description": "Periodic review of user access rights to ensure that only authorized individuals have access to systems and data.",
+            "standard_id": "STD-001"
+          },
+          {
+            "id": "CTRL-002",
+            "name": "Multi-factor Authentication",
+            "description": "Implementation of multi-factor authentication (MFA) to enhance security for system access.",
+            "standard_id": "STD-001"
+          },
+          {
+            "id": "CTRL-003",
+            "name": "Access Termination",
+            "description": "Timely termination of access rights for individuals who are no longer authorized to use the systems.",
+            "standard_id": "STD-001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "RISK-001",
+            "name": "Unauthorized Access",
+            "description": "Risk of unauthorized individuals gaining access to sensitive data and systems.",
+            "control_id": "CTRL-001"
+          },
+          {
+            "id": "RISK-002",
+            "name": "Account Compromise",
+            "description": "Risk of user accounts being compromised, leading to potential data breaches.",
+            "control_id": "CTRL-002"
+          },
+          {
+            "id": "RISK-003",
+            "name": "Orphaned Accounts",
+            "description": "Risk of accounts not being properly terminated, potentially being exploited by unauthorized individuals.",
+            "control_id": "CTRL-003"
+          },
+          {
+            "id": "RISK-004",
+            "name": "Insider Threat",
+            "description": "Risk of current or former employees abusing their access rights.",
+            "control_id": "CTRL-003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "InfoSec Training and Awareness",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "STD-001",
+          "name": "ISO 27001",
+          "description": "International standard for information security management"
+        },
+        "controls": [
+          {
+            "id": "CTRL-001",
+            "name": "Conduct Regular Training",
+            "description": "Provide regular information security training sessions for all employees.",
+            "standard_id": "STD-001"
+          },
+          {
+            "id": "CTRL-002",
+            "name": "Phishing Awareness",
+            "description": "Conduct phishing awareness campaigns and training.",
+            "standard_id": "STD-001"
+          },
+          {
+            "id": "CTRL-003",
+            "name": "Policy Acknowledgement",
+            "description": "Ensure all employees acknowledge the security policies.",
+            "standard_id": "STD-001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "RISK-001",
+            "name": "Lack of Knowledge",
+            "description": "Employees may lack the necessary knowledge to comply with security protocols, leading to potential security breaches.",
+            "control_id": "CTRL-001"
+          },
+          {
+            "id": "RISK-002",
+            "name": "Social Engineering Attacks",
+            "description": "Employees may fall victim to social engineering attacks due to lack of awareness.",
+            "control_id": "CTRL-001"
+          },
+          {
+            "id": "RISK-003",
+            "name": "Phishing Emails",
+            "description": "Employees may not recognize phishing emails, leading to credential theft.",
+            "control_id": "CTRL-002"
+          },
+          {
+            "id": "RISK-004",
+            "name": "Policy Non-Compliance",
+            "description": "Employees may not comply with security policies if they do not acknowledge them.",
+            "control_id": "CTRL-003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Project Management Oversight",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "STD-001",
+          "name": "ISO 21500",
+          "description": "Guidelines on project management."
+        },
+        "controls": [
+          {
+            "id": "CT-001",
+            "name": "Project Charter Approval",
+            "description": "Ensure the project charter is reviewed and approved by the project sponsor.",
+            "standard_id": "STD-001"
+          },
+          {
+            "id": "CT-002",
+            "name": "Stakeholder Engagement Plan",
+            "description": "Develop and maintain a stakeholder engagement plan to ensure effective communication and stakeholder involvement.",
+            "standard_id": "STD-001"
+          },
+          {
+            "id": "CT-003",
+            "name": "Risk Management Plan",
+            "description": "Create and implement a risk management plan that identifies, assesses, and mitigates project risks.",
+            "standard_id": "STD-001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "RK-001",
+            "name": "Unapproved Project Charter",
+            "description": "Proceeding with the project without an approved charter may lead to misalignment of project objectives.",
+            "control_id": "CT-001"
+          },
+          {
+            "id": "RK-002",
+            "name": "Stakeholder Miscommunication",
+            "description": "Inadequate stakeholder communication may result in misunderstandings and project delays.",
+            "control_id": "CT-002"
+          },
+          {
+            "id": "RK-003",
+            "name": "Unidentified Project Risks",
+            "description": "Failure to identify and manage project risks can lead to project failure or significant issues.",
+            "control_id": "CT-003"
+          },
+          {
+            "id": "RK-004",
+            "name": "Inadequate Risk Mitigation",
+            "description": "Poorly developed risk mitigation strategies can fail to prevent issues, causing project disruptions.",
+            "control_id": "CT-003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Technology Strategy Management",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "STD-TSM-001",
+          "name": "Technology Governance Standard",
+          "description": "Guidelines and procedures for effective technology strategy management."
+        },
+        "controls": [
+          {
+            "id": "CTRL-TSM-001",
+            "name": "Technology Roadmap Development",
+            "description": "Develop and maintain a technology roadmap aligned with business goals.",
+            "standard_id": "STD-TSM-001"
+          },
+          {
+            "id": "CTRL-TSM-002",
+            "name": "Innovation Pipeline Management",
+            "description": "Manage the pipeline of technological innovations to ensure alignment with strategy.",
+            "standard_id": "STD-TSM-001"
+          },
+          {
+            "id": "CTRL-TSM-003",
+            "name": "Strategic Partnership Management",
+            "description": "Foster and manage strategic partnerships to leverage technological advancements.",
+            "standard_id": "STD-TSM-001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "RISK-TSM-001",
+            "name": "Misalignment with Business Goals",
+            "description": "The technology roadmap may not align with business objectives.",
+            "control_id": "CTRL-TSM-001"
+          },
+          {
+            "id": "RISK-TSM-002",
+            "name": "Innovation Overload",
+            "description": "Too many innovations in the pipeline may overwhelm resources.",
+            "control_id": "CTRL-TSM-002"
+          },
+          {
+            "id": "RISK-TSM-003",
+            "name": "Dependence on Partners",
+            "description": "Over-reliance on strategic partners poses a risk if partners fail to deliver.",
+            "control_id": "CTRL-TSM-003"
+          },
+          {
+            "id": "RISK-TSM-004",
+            "name": "Technological Obsolescence",
+            "description": "Existing technologies may become obsolete due to rapid advancements.",
+            "control_id": "CTRL-TSM-002"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Enterprise Data Services",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "EDS-ST-001",
+          "name": "Data Management Standard",
+          "description": "Guidelines and requirements for effective management of enterprise data."
+        },
+        "controls": [
+          {
+            "id": "EDS-CT-001",
+            "name": "Data Quality Monitoring",
+            "description": "Regularly monitor the quality of data to ensure accuracy and consistency.",
+            "standard_id": "EDS-ST-001"
+          },
+          {
+            "id": "EDS-CT-002",
+            "name": "Access Control Management",
+            "description": "Establish and manage access controls to safeguard enterprise data.",
+            "standard_id": "EDS-ST-001"
+          },
+          {
+            "id": "EDS-CT-003",
+            "name": "Data Backup and Recovery",
+            "description": "Implement regular data backup and recovery processes to prevent data loss.",
+            "standard_id": "EDS-ST-001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "EDS-RK-001",
+            "name": "Data Inaccuracy",
+            "description": "Inaccurate data can lead to faulty decision-making and operational inefficiencies.",
+            "control_id": "EDS-CT-001"
+          },
+          {
+            "id": "EDS-RK-002",
+            "name": "Data Consistency Issues",
+            "description": "Inconsistent data can result in conflicting information and unreliable reporting.",
+            "control_id": "EDS-CT-001"
+          },
+          {
+            "id": "EDS-RK-003",
+            "name": "Unauthorized Access",
+            "description": "Unauthorized access to data can lead to data breaches and loss of sensitive information.",
+            "control_id": "EDS-CT-002"
+          },
+          {
+            "id": "EDS-RK-004",
+            "name": "Access Mismanagement",
+            "description": "Poorly managed access controls can result in excessive or insufficient permissions.",
+            "control_id": "EDS-CT-002"
+          },
+          {
+            "id": "EDS-RK-005",
+            "name": "Data Loss",
+            "description": "Loss of data due to inadequate backup and recovery processes can cause significant operational disruptions.",
+            "control_id": "EDS-CT-003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Cyber Security Incident Response",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "STD-CSIR-001",
+          "name": "Cyber Security Incident Management Standard",
+          "description": "Standard for managing cyber security incidents, including preparation, detection, and response."
+        },
+        "controls": [
+          {
+            "id": "CTRL-CSIR-001",
+            "name": "Incident Detection and Reporting",
+            "description": "Implement and maintain processes to detect and report security incidents in a timely manner.",
+            "standard_id": "STD-CSIR-001"
+          },
+          {
+            "id": "CTRL-CSIR-002",
+            "name": "Incident Response Plan",
+            "description": "Develop and maintain an incident response plan that outlines procedures for responding to security incidents.",
+            "standard_id": "STD-CSIR-001"
+          },
+          {
+            "id": "CTRL-CSIR-003",
+            "name": "Post-Incident Review",
+            "description": "Conduct post-incident reviews to analyze and improve incident response processes.",
+            "standard_id": "STD-CSIR-001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "RISK-CSIR-001",
+            "name": "Undetected Security Incident",
+            "description": "Risk of security incidents remaining undetected due to inadequate detection mechanisms.",
+            "control_id": "CTRL-CSIR-001"
+          },
+          {
+            "id": "RISK-CSIR-002",
+            "name": "Delayed Incident Reporting",
+            "description": "Risk of delays in reporting security incidents, leading to increased damage.",
+            "control_id": "CTRL-CSIR-001"
+          },
+          {
+            "id": "RISK-CSIR-003",
+            "name": "Ineffective Incident Response",
+            "description": "Risk of ineffective response to security incidents due to lack of an established plan.",
+            "control_id": "CTRL-CSIR-002"
+          },
+          {
+            "id": "RISK-CSIR-004",
+            "name": "Insufficient Incident Documentation",
+            "description": "Risk of insufficient documentation and lessons learned from past incidents, which can impair future response efforts.",
+            "control_id": "CTRL-CSIR-003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Backup and Replication HN",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "STD-001",
+          "name": "Data Protection Standard",
+          "description": "Ensures proper backup and replication procedures are in place to protect data."
+        },
+        "controls": [
+          {
+            "id": "CTRL-001",
+            "name": "Regular Backup Schedule",
+            "description": "Maintain a regular backup schedule to ensure data is consistently backed up.",
+            "standard_id": "STD-001"
+          },
+          {
+            "id": "CTRL-002",
+            "name": "Replication Integrity Verification",
+            "description": "Regularly verify the integrity of replicated data to avoid corruption or loss.",
+            "standard_id": "STD-001"
+          },
+          {
+            "id": "CTRL-003",
+            "name": "Access Control for Backup Data",
+            "description": "Implement strict access control measures for backup data to prevent unauthorized access.",
+            "standard_id": "STD-001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "RISK-001",
+            "name": "Backup Failure",
+            "description": "Risk of backup processes failing, leading to loss of data.",
+            "control_id": "CTRL-001"
+          },
+          {
+            "id": "RISK-002",
+            "name": "Data Corruption in Replication",
+            "description": "Risk of data being corrupted during the replication process.",
+            "control_id": "CTRL-002"
+          },
+          {
+            "id": "RISK-003",
+            "name": "Unauthorized Access to Backup Data",
+            "description": "Risk of unauthorized access to sensitive backup data.",
+            "control_id": "CTRL-003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Configuration Management",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "STD001",
+          "name": "ISO/IEC 20000",
+          "description": "Information technology \u2014 Service management"
+        },
+        "controls": [
+          {
+            "id": "CTRL001",
+            "name": "Configuration Identification",
+            "description": "Ensure all components of the IT system are identified and tracked.",
+            "standard_id": "STD001"
+          },
+          {
+            "id": "CTRL002",
+            "name": "Configuration Control",
+            "description": "Establish and maintain consistency of a product's performance and functional attributes with its requirements.",
+            "standard_id": "STD001"
+          },
+          {
+            "id": "CTRL003",
+            "name": "Configuration Status Accounting",
+            "description": "Record and report information needed to manage a configuration effectively, including the status of proposed changes and the implementation status of approved changes.",
+            "standard_id": "STD001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "RISK001",
+            "name": "Misidentified Components",
+            "description": "Risk of IT components being wrongly identified, leading to potential system errors.",
+            "control_id": "CTRL001"
+          },
+          {
+            "id": "RISK002",
+            "name": "Unauthorized Changes",
+            "description": "Risk of unauthorized changes being made to the configuration.",
+            "control_id": "CTRL002"
+          },
+          {
+            "id": "RISK003",
+            "name": "Inaccurate Reporting",
+            "description": "Risk of inaccuracies in the status reports affecting decision-making.",
+            "control_id": "CTRL003"
+          },
+          {
+            "id": "RISK004",
+            "name": "Change Implementation Delays",
+            "description": "Risk of delays in implementing approved changes due to status miscommunication.",
+            "control_id": "CTRL003"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "process_name": "Technology Governance",
+    "list_standards": [
+      {
+        "standard": {
+          "id": "std-001",
+          "name": "ISO/IEC 27001",
+          "description": "Information Security Management"
+        },
+        "controls": [
+          {
+            "id": "ctrl-001",
+            "name": "Access Control",
+            "description": "Ensure that access to information and information processing facilities is limited to authorized users.",
+            "standard_id": "std-001"
+          },
+          {
+            "id": "ctrl-002",
+            "name": "Change Management",
+            "description": "Manage changes to organization, business processes, information processing facilities, and systems that affect information security.",
+            "standard_id": "std-001"
+          },
+          {
+            "id": "ctrl-003",
+            "name": "Incident Management",
+            "description": "Ensure a consistent and effective approach to the management of information security incidents.",
+            "standard_id": "std-001"
+          }
+        ],
+        "risks": [
+          {
+            "id": "risk-001",
+            "name": "Unauthorized Access",
+            "description": "Risk of unauthorized access to information systems.",
+            "control_id": "ctrl-001"
+          },
+          {
+            "id": "risk-002",
+            "name": "Data Breach",
+            "description": "Risk of data breaches due to insufficient access controls.",
+            "control_id": "ctrl-001"
+          },
+          {
+            "id": "risk-003",
+            "name": "Uncontrolled Changes",
+            "description": "Risk of changes being made without proper review and approval.",
+            "control_id": "ctrl-002"
+          },
+          {
+            "id": "risk-004",
+            "name": "System Downtime",
+            "description": "Risk of system downtime due to poorly managed changes.",
+            "control_id": "ctrl-002"
+          },
+          {
+            "id": "risk-005",
+            "name": "Incident Mismanagement",
+            "description": "Risk of incidents not being managed effectively and timely.",
+            "control_id": "ctrl-003"
+          }
+        ]
+      }
+    ]
+  }
+]
