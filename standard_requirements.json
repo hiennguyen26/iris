@@ -1,0 +1,1241 @@
+[
+  {
+    "isRelevantforStandard": false,
+    "id": "001",
+    "name": "Authority",
+    "description": "This bullet point refers to the authority under which the Second Amendment is promulgated, including the specific sections of the Financial Services, Banking, and Insurance laws cited.",
+    "text": "Adrienne A. Harris, Superintendent of Financial Services, promulgates the Second Amendment to Part 500 under the authority granted by various sections of Financial Services, Banking, and Insurance laws."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.0",
+    "name": "Introduction",
+    "description": "This point outlines the general threat landscape that has prompted the amendment, highlighting different types of cyber threats and their impacts.",
+    "text": "DFS monitors threats to information and financial systems, including those from nation-states, terrorists, and independent criminals. Cybercriminals exploit technological vulnerabilities to access sensitive data, causing significant financial losses to regulated entities and consumers."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Regulatory Minimum Standards",
+    "description": "The regulation establishes minimum standards for cybersecurity programs but allows flexibility to match relevant risks and pace with technological advances. This bullet emphasizes the need for regulatory minimum standards that are not overly prescriptive, allowing entities to tailor their programs according to their risk profiles and evolving technologies.",
+    "text": "The regulation establishes minimum standards for cybersecurity programs but allows flexibility to match relevant risks and pace with technological advances."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Senior Management Responsibility",
+    "description": "This bullet point specifies the accountability of senior management in implementing and maintaining a cybersecurity program, along with the requirement to file an annual certification.",
+    "text": "Senior management must take cybersecurity seriously, being responsible for the cybersecurity program and filing an annual compliance certification."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Urgency and Minimum Standards",
+    "description": "This point stresses the urgency for regulated entities to adopt cybersecurity programs and comply with minimum standards due to the increasing number of cyber events.",
+    "text": "Regulated entities that have not yet adopted a cybersecurity program must do so urgently, and all must adhere to minimum standards."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.1(a)",
+    "name": "Affiliate",
+    "description": "The given bullet point provides the definition of 'Affiliate' as it pertains to the Cybersecurity Requirements. It specifies that an affiliate is any person or entity that controls, is controlled by, or is under common control with another person or entity. Control is defined as having the power to direct management and policies, either through ownership or other means.",
+    "text": "Affiliate means any person that controls, is controlled by or is under common control with another person. For purposes of this subdivision, control means the possession, direct or indirect, of the power to direct or cause the direction of the management and policies of a person, whether through the ownership of stock of such person or otherwise."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.1(b)",
+    "name": "Authorized user",
+    "description": "'Authorized user' under section 500.1(b) Definitions is relevant for further compliance to define individuals who access the information systems and data of a covered entity.",
+    "text": "'Authorized user' means any employee, contractor, agent, or another person that participates in the business operations of a covered entity and is authorized to access and use any information systems and data of the covered entity."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.1(c)",
+    "name": "Chief Information Security Officer (CISO)",
+    "description": "Chief Information Security Officer or CISO means a qualified individual responsible for overseeing and implementing a covered entity\u2019s cybersecurity program and enforcing its cybersecurity policy.",
+    "text": "Chief Information Security Officer or CISO means a qualified individual responsible for overseeing and implementing a covered entity\u2019s cybersecurity program and enforcing its cybersecurity policy."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.1(d)",
+    "name": "Class A company",
+    "description": "A Class A company refers to a covered entity that meets specific criteria regarding gross annual revenue and number of employees. Specifically, it must have at least $20,000,000 in gross annual revenue in each of the last two fiscal years from all business operations, and either over 2,000 employees averaged over the last two fiscal years or over $1,000,000,000 in gross annual revenue in each of the last two fiscal years from all operations including affiliates. This definition is crucial for determining the applicability of certain cybersecurity requirements.",
+    "text": "Class A company means a covered entity with at least $20,000,000 in gross annual revenue in each of the last two fiscal years from all business operations of the covered entity and the business operations in this State of the covered entity\u2019s affiliates and: (1) over 2,000 employees averaged over the last two fiscal years, including employees of both the covered entity and all of its affiliates no matter where located; or (2) over $1,000,000,000 in gross annual revenue in each of the last two fiscal years from all business operations of the covered entity and all of its affiliates no matter where located. For purposes of this subdivision, when calculating the number of employees and gross annual revenue, affiliates shall include only those that share information systems, cybersecurity resources or all or any part of a cybersecurity program with the covered entity."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.1(e)",
+    "name": "Covered Entity",
+    "description": "Covered entity means any person operating under or required to operate under a license, registration, charter, certificate, permit, accreditation or similar authorization under the Banking Law, the Insurance Law or the Financial Services Law, regardless of whether the covered entity is also regulated by other government agencies.",
+    "text": "Covered entity means any person operating under or required to operate under a license, registration, charter, certificate, permit, accreditation or similar authorization under the Banking Law, the Insurance Law or the Financial Services Law, regardless of whether the covered entity is also regulated by other government agencies."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.1-f-Cybersecurity-event",
+    "name": "Cybersecurity Event",
+    "description": "500.1(f) Definitions - Cybersecurity event means any act or attempt, successful or unsuccessful, to gain unauthorized access to, disrupt or misuse an information system or information stored on such information system.",
+    "text": "Cybersecurity event means any act or attempt, successful or unsuccessful, to gain unauthorized access to, disrupt or misuse an information system or information stored on such information system."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.1(g)(1)",
+    "name": "Notification Requirement - Government or Supervisory Body",
+    "description": "This requirement mandates that any cyber event which impacts the covered entity and requires notification to government or supervisory bodies must be disclosed.",
+    "text": "Impacts the covered entity and requires the covered entity to notify any government body, self-regulatory agency or any other supervisory body."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "R001",
+    "name": "Material Harm Likelihood",
+    "description": "Events which have a reasonable likelihood of materially harming critical operations of the covered entity fall under significant incidents.",
+    "text": "Has a reasonable likelihood of materially harming any material part of the normal operation(s) of the covered entity."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "R-001",
+    "name": "Ransomware Deployment",
+    "description": "If ransomware affects a material part of the entity\u2019s information systems, it needs to be reported as per the regulation.",
+    "text": "Results in the deployment of ransomware within a material part of the covered entity\u2019s information systems."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Independent Audit Definition",
+    "description": "Defines what constitutes an independent audit, emphasizing uninfluenced decision-making.",
+    "text": "An audit conducted by internal or external auditors free to make decisions not influenced by the covered entity being audited or by its owners, managers or employees."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Information System Definition",
+    "description": "Defines the scope of what is considered an information system, including specialized systems.",
+    "text": "A discrete set of electronic information resources organized for the collection, processing, maintenance, use, sharing, dissemination or disposition of electronic information, as well as any specialized system such as industrial/process controls systems, telephone switching and private branch exchange systems, and environmental control systems."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.1-j",
+    "name": "Multi-factor Authentication Definition",
+    "description": "Describes the components required for multi-factor authentication.",
+    "text": "Authentication through verification of at least two of the following types of authentication factors: (1) knowledge factors, such as a password; (2) possession factors, such as a token; or (3) inherence factors, such as a biometric characteristic."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.1.k",
+    "name": "Nonpublic Information Definition",
+    "description": "Specifies what constitutes nonpublic information, including business-related information and personal identifiers in combination with other data elements.",
+    "text": "All electronic information that is not publicly available information and is: (1) business-related information of a covered entity the tampering with which, or unauthorized disclosure, access or use of which, would cause a material adverse impact to the business, operations, or security of the covered entity; (2) any information concerning an individual which because of name, number, personal mark, or other identifier can be used to identify such individual, in combination with any one or more of the following data elements: (i) social security number; (ii) drivers\u2019 license number or non-driver identification card number; (iii) account number, credit or debit card number; (iv) any security code, access code or password that would permit access to an individual\u2019s financial account."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Biometric Records",
+    "description": "Includes biometric records under the category of sensitive information. The purpose is to identify and protect biometric data as a category of nonpublic information that may require special security measures.",
+    "text": "Biometric records"
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Healthcare Information - Individual Health",
+    "description": "Classification of healthcare information related to an individual's health.",
+    "text": "any information or data, except age or gender, in any form or medium created by or derived from a health care provider or an individual and that relates to: (i) the past, present, or future physical, mental, or behavioral health or condition of any individual or a member of the individual's family"
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Healthcare Information - Healthcare Provision",
+    "description": "Classification of healthcare information related to the provision of healthcare.",
+    "text": "the provision of health care to any individual"
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "Healthcare_Information_Payment_for_Healthcare",
+    "name": "Healthcare Information - Payment for Healthcare",
+    "description": "Classification of healthcare information related to payment for healthcare.",
+    "text": "payment for the provision of health care to any individual"
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "penetration-testing",
+    "name": "Penetration Testing",
+    "description": "Defines penetration testing and its scope.",
+    "text": "Penetration testing means testing the security of information systems by attempting to circumvent or defeat the security features of an information system by authorizing attempted penetration of databases or controls from outside or inside the covered entity\u2019s information systems"
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "NYDFS-500.1(m)",
+    "name": "Definition of 'Person'",
+    "description": "Defines 'person' under the regulation.",
+    "text": "Person means any individual or entity, including but not limited to any partnership, corporation, branch, agency or association."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "PrivilegedAccountDefinition",
+    "name": "Privileged Account",
+    "description": "Defines a privileged account and its capabilities, including performing security-relevant functions not authorized for ordinary users, such as adding, changing, or removing other accounts, and making configuration changes to information systems.",
+    "text": "Privileged account means any authorized user account or service account that can be used to perform security-relevant functions that ordinary users are not authorized to perform, including but not limited to the ability to add, change or remove other accounts, or make configuration changes to information systems."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Publicly Available Information - Definition",
+    "description": "Defines publicly available information.",
+    "text": "Publicly available information means any information that a covered entity has a reasonable basis to believe is lawfully made available to the general public from: Federal, State or local government records; widely distributed media; or disclosures to the general public that are required to be made by Federal, State or local law"
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Publicly Available Information - Determination",
+    "description": "Specifies conditions for determining publicly available information.",
+    "text": "A covered entity has a reasonable basis to believe that information is lawfully made available to the general public if the covered entity has taken steps to determine: (1) that the information is of the type that is available to the general public; and (2) whether an individual can direct that the information not be made available to the general public and, if so, that such individual has not done so."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.1(p)",
+    "name": "Risk Assessment",
+    "description": "Defines risk assessment and its components. This involves identifying, estimating, and prioritizing cybersecurity risks to organizational operations, assets, individuals, customers, consumers, other organizations, and critical infrastructure. It incorporates threat and vulnerability analyses and considers mitigations provided by planned or in place security controls.",
+    "text": "Risk assessment means the process of identifying, estimating and prioritizing cybersecurity risks to organizational operations (including mission, functions, image and reputation), organizational assets, individuals, customers, consumers, other organizations and critical infrastructure resulting from the operation of an information system. Risk assessments incorporate threat and vulnerability analyses and consider mitigations provided by security controls planned or in place."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Senior Governing Body",
+    "description": "Defines senior governing body under the regulation.",
+    "text": "Senior governing body means the board of directors (or an appropriate committee thereof) or equivalent governing body or, if neither of those exist, the senior officer or officers of a covered entity"
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "standard_1",
+    "name": "Entity Responsibility",
+    "description": "The senior governing body may be responsible for the affiliate's cybersecurity program under section 500.2(d).",
+    "text": "The entity responsible for the covered entity\u2019s cybersecurity program may be the senior governing body of an affiliate."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Senior Officer Definition",
+    "description": "Senior officer(s) can be individuals or a committee managing functions such as security, compliance, and risk.",
+    "text": "Senior officer(s) are responsible for managing, operating, securing, and ensuring compliance and risk management for a covered entity."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.1(s)",
+    "name": "Third-party Service Provider Definition",
+    "description": "A third-party service provider must be distinct from affiliates and governmental entities and have access to covered entity's nonpublic information.",
+    "text": "A third-party service provider is defined as a person who is not an affiliate or governmental entity, but provides services to the covered entity and has access to nonpublic information."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "CSR-001",
+    "name": "Cybersecurity Program Requirement",
+    "description": "The cybersecurity program should be tailored to safeguard information systems and the nonpublic information they store.",
+    "text": "Each covered entity must maintain a cybersecurity program to protect the confidentiality, integrity, and availability of its information systems and nonpublic information."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "001",
+    "name": "Risk-based Cybersecurity Functions",
+    "description": "Core functions include risk identification, defensive measures, event detection, response, recovery, and regulatory compliance.",
+    "text": "The cybersecurity program should be based on the entity's risk assessment and designed to identify, protect, detect, respond to, and recover from cybersecurity risks and events, and fulfill regulatory reporting obligations."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.2c",
+    "name": "Independent Audits",
+    "description": "Section 6(c) specifies the requirement for independent audits for Class A companies.",
+    "text": "Each class A company shall design and conduct independent audits of its cybersecurity program based on its risk assessment."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "SEC-500.2(d)",
+    "name": "Affiliated Cybersecurity Programs",
+    "description": "Section 500.2(d) allows covered entities to adopt cybersecurity programs of affiliates if they meet the regulations.",
+    "text": "A covered entity may meet the requirement(s) of this Part by adopting the relevant and applicable provisions of a cybersecurity program maintained by an affiliate, provided that such provisions satisfy the requirements of this Part, as applicable to the covered entity."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.2e",
+    "name": "Documentation Availability",
+    "description": "Section 6(e) requires that all relevant cybersecurity documentation be made available to the superintendent upon request.",
+    "text": "All documentation and information relevant to the covered entity\u2019s cybersecurity program, including the relevant and applicable provisions of a cybersecurity program maintained by an affiliate and adopted by the covered entity, shall be made available to the superintendent upon request."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.3",
+    "name": "Cybersecurity Policy Approval",
+    "description": "Section 500.3 mandates the approval of written cybersecurity policies annually by senior officers or the senior governing body.",
+    "text": "Each covered entity shall implement and maintain a written policy or policies, approved at least annually by a senior officer or the covered entity\u2019s senior governing body for the protection of its information systems and nonpublic information stored on those information systems."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Policy Procedures",
+    "description": "Section 500.3 requires that procedures be developed, documented, and implemented in line with the written cybersecurity policies.",
+    "text": "Procedures shall be developed, documented and implemented in accordance with the written policy or policies."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.3",
+    "name": "Risk Assessment-Based Policies",
+    "description": "Section 500.3 states that cybersecurity policies and procedures should be based on the entity's risk assessment and cover specific areas.",
+    "text": "The cybersecurity policy or policies and procedures shall be based on the covered entity\u2019s risk assessment and address, at a minimum, the following areas to the extent applicable to the covered entity\u2019s operations."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.3-Policy-Areas",
+    "name": "Policy Areas",
+    "description": "Section 500.3 outlines the minimum areas that cybersecurity policies must cover based on the entity's operations.",
+    "text": "The cybersecurity policy or policies and procedures shall address, at a minimum, information security, data governance, classification and retention, asset inventory, device management and end of life management, access controls, including remote access and identity management, business continuity and disaster recovery planning and resources, systems operations and availability concerns, systems and network security and monitoring, security awareness and training, systems and application security and development and quality assurance, physical security and environmental controls, customer data privacy, vendor and third-party service provider management."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.4(m)",
+    "name": "Risk Assessment",
+    "description": "Reference to risk assessment requirements stipulated in the regulation.",
+    "text": "500.4 (m) Each covered entity shall conduct a risk assessment of its information systems. The risk assessment shall be documented and shall be updated at least annually."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.4(n)",
+    "name": "Incident Response and Notification",
+    "description": "Outlines the need for an incident response plan as per the regulation.",
+    "text": "500.4 (n) Each covered entity shall establish a written incident response plan designed to promptly respond to, and recover from, any cybersecurity event."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.4(o)",
+    "name": "Vulnerability Management",
+    "description": "Details the requirement for vulnerability management as stated in the regulation.",
+    "text": "500.4 (o) Each covered entity shall implement policies and procedures for monitoring and managing the vulnerabilities to information systems of the covered entity."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Designation and Responsibility of CISO",
+    "description": "Outlines the responsibilities and requirements for the CISO stated in the regulation.",
+    "text": "500.4 (a) Each covered entity shall designate a Chief Information Security Officer (CISO). The CISO may be employed by the covered entity, an affiliate, or a third-party service provider. If employed by a third-party service provider or affiliate, the covered entity retains responsibility for compliance, must oversee the service provider, and ensure the provider's cybersecurity program aligns with the requirements."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "REQ-500.4b-01",
+    "name": "CISO Reporting",
+    "description": "Describes the reporting requirements and content coverage expected from the CISO as per the regulation.",
+    "text": "500.4 (b) The CISO must report annually in writing to the senior governing body on the cybersecurity program, covering aspects such as confidentiality, integrity, policies, risks, effectiveness, and events."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Timely Reporting by CISO",
+    "description": "Highlights the importance and timing of reporting significant cybersecurity issues as required by the regulation.",
+    "text": "500.4 (c) The CISO shall report material cybersecurity issues to the senior governing body or senior officer(s) in a timely manner, including significant events and changes to the program."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.4 (d)",
+    "name": "Senior Governing Body Oversight",
+    "description": "Describes the oversight responsibilities of the senior governing body in managing cybersecurity risks as required by the regulation.",
+    "text": "500.4 (d) The senior governing body shall exercise oversight of cybersecurity risk management, ensuring appropriate measures and governance."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.4 (1)",
+    "name": "Cybersecurity Oversight",
+    "description": "Compliance standard focusing on the necessity for the senior governing body of the covered entity to have sufficient understanding of cybersecurity-related matters to effectively exercise oversight, which may include the use of advisors.",
+    "text": "Having sufficient understanding of cybersecurity-related matters to exercise oversight, which may include the use of advisors."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.4 (2)",
+    "name": "Executive Management Responsibility",
+    "description": "Requiring the covered entity\u2019s executive management or its designees to develop, implement and maintain the covered entity\u2019s cybersecurity program.",
+    "text": "Requiring the covered entity\u2019s executive management or its designees to develop, implement and maintain the covered entity\u2019s cybersecurity program."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "SR1",
+    "name": "Management Reporting",
+    "description": "500.4 (3)",
+    "text": "Regularly receiving and reviewing management reports about cybersecurity matters."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.4 (4)",
+    "name": "Resource Allocation",
+    "description": "Confirming that the covered entity\u2019s management has allocated sufficient resources to implement and maintain an effective cybersecurity program.",
+    "text": "500.4 (4)"
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.5",
+    "name": "Written Policies and Procedures",
+    "description": "Develop and implement written policies and procedures for vulnerability management that are designed to assess and maintain the effectiveness of its cybersecurity program.",
+    "text": "Each covered entity shall, in accordance with its risk assessment, develop and implement written policies and procedures for vulnerability management that are designed to assess and maintain the effectiveness of its cybersecurity program."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.5(a)(1)",
+    "name": "Penetration Testing",
+    "description": "Conducting, at minimum, penetration testing of information systems from both inside and outside the information systems\u2019 boundaries by a qualified internal or external party at least annually",
+    "text": "500.5 (a)(1)"
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.5 (a)(2)",
+    "name": "Automated Scans",
+    "description": "Conducting automated scans of information systems, and a manual review of systems not covered by such scans, for the purpose of discovering, analyzing and reporting vulnerabilities",
+    "text": "500.5 (a)(2)"
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.5.b",
+    "name": "Security Vulnerability Monitoring",
+    "description": "500.5 (b) - Each covered entity shall have a monitoring process in place to promptly identify new security vulnerabilities.",
+    "text": "Having a monitoring process in place to be promptly informed of new security vulnerabilities"
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.5 (c)",
+    "name": "Timely Vulnerability Remediation",
+    "description": "500.5 (c)",
+    "text": "Timely remediating vulnerabilities, giving priority to vulnerabilities based on the risk they pose to the covered entity."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.6 (a)(1)",
+    "name": "Audit Trail Systems",
+    "description": "Securely maintaining systems that, to the extent applicable and based on its risk assessment, are designed to reconstruct material financial transactions sufficient to support normal operations and obligations of the covered entity.",
+    "text": "500.6 (a)(1)"
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Audit Trails Maintenance",
+    "description": "This bullet point emphasizes the duration for which audit trail records must be maintained.",
+    "text": "Each covered entity shall maintain records required for audit trails for not fewer than five years (paragraph a (1)) and three years (paragraph a (2))."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "001",
+    "name": "Access Privileges Limitation",
+    "description": "This bullet point stresses the necessity of limiting access privileges based on job requirements.",
+    "text": "Limit user access privileges to information systems to only those necessary to perform the user's job."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Privileged Accounts Limitation",
+    "description": "This bullet point highlights the importance of restricting privileged accounts and their access to essential functions only.",
+    "text": "Limit the number of privileged accounts and their access functions to only those necessary to perform the user's job."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "PR01",
+    "name": "Periodic Review of User Access",
+    "description": "This stresses the need for regular reviews of user access privileges to maintain security.",
+    "text": "Review all user access privileges periodically, but at a minimum annually, and remove or disable accounts and access that are no longer necessary."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "SR-001",
+    "name": "Disable Remote Control Protocols",
+    "description": "This bullet point ensures that protocols allowing remote control are either disabled or securely configured to prevent unauthorized access.",
+    "text": "Disable or securely configure all protocols that permit remote control of devices."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "req-access-1",
+    "name": "Access Termination",
+    "description": "This emphasizes the importance of immediately terminating access after an employee leaves the company. Ensuring that user access is promptly revoked reduces the risk of unauthorized access by former employees, thus protecting the confidentiality and integrity of the company's information systems.",
+    "text": "Promptly terminate access following departures."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "01",
+    "name": "Password Policy Implementation",
+    "description": "This focuses on the requirement for a strong, written password policy in alignment with industry standards.",
+    "text": "Implement a written password policy that meets industry standards where passwords are used as a method of authentication."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Privileged Access Monitoring for Class A Companies",
+    "description": "This highlights the necessity for Class A companies to monitor and manage privileged access activities.",
+    "text": "Each class A company shall monitor privileged access activity and implement a privileged access management solution."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Automated Password Blocking for Class A Companies",
+    "description": "This underscores the requirement for blocking commonly used passwords to enhance security.",
+    "text": "Implement an automated method of blocking commonly used passwords for all accounts on information systems owned or controlled by the class A company, and wherever feasible for all other accounts."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Written Approval for Password Blocking Infeasibility",
+    "description": "This allows for written approval and compensating controls if password blocking is not feasible.",
+    "text": "If blocking commonly used passwords is infeasible, the CISO may approve in writing the infeasibility and the use of reasonably equivalent or more secure compensating controls, at least annually."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.8",
+    "name": "Application security",
+    "description": "This section mandates written protocols for secure development practices and evaluation of third-party applications for cybersecurity.",
+    "text": "Each covered entity\u2019s cybersecurity program shall include written procedures, guidelines, and standards designed to ensure the use of secure development practices for in-house developed applications, and procedures for evaluating, assessing, or testing the security of externally developed applications within the entity\u2019s technology environment."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.8 Annual Review",
+    "name": "500.8 Annual Review",
+    "description": "This requirement ensures annual review and updating of cybersecurity procedures by a qualified individual.",
+    "text": "All procedures, guidelines, and standards shall be reviewed, assessed, and updated as necessary by the CISO (or a qualified designee) at least annually."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.9(a)",
+    "name": "Risk assessment frequency",
+    "description": "Mandates regular risk assessments to shape the cybersecurity program and dictates minimum annual reviews or assessments when material changes occur.",
+    "text": "Each covered entity shall conduct a periodic risk assessment of the entity\u2019s information systems to inform the design of the cybersecurity program, reviewed and updated at least annually or when significant changes occur."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.9(b)",
+    "name": "Risk assessment documentation",
+    "description": "This section specifies that the risk assessment process must be documented and guided by detailed written policies on risk evaluation, control assessment, and risk management strategies.",
+    "text": "The risk assessment shall be documented and carried out in accordance with written policies and procedures, which must include criteria for evaluation and categorization of risks, assessment of existing controls, and requirements for risk mitigation or acceptance."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.10(a)(1)",
+    "name": "Cybersecurity personnel",
+    "description": "Mandates the employment or contracting of qualified cybersecurity professionals to manage cybersecurity risks and key functions as defined in another section.",
+    "text": "Each covered entity shall utilize qualified cybersecurity personnel, whether internal, from an affiliate, or third-party, to manage the entity\u2019s cybersecurity risks and perform or oversee the core cybersecurity functions."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Cybersecurity Personnel Training and Updates",
+    "description": "Page 11, Clause (2)",
+    "text": "Provide cybersecurity personnel with cybersecurity updates and training sufficient to address relevant cybersecurity risks."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Maintaining Knowledge of Cybersecurity Threats",
+    "description": "The provided bullet point emphasizes the necessity for key cybersecurity personnel to stay updated on evolving cybersecurity threats and countermeasures. It is a relevant standard requirement to ensure that the personnel responsible for managing cybersecurity risks are well-informed and prepared to address new and changing threats. Such a requirement is critical for maintaining an effective cybersecurity program and aligning with industry best practices.",
+    "text": "Verify that key cybersecurity personnel take steps to maintain current knowledge of changing cybersecurity threats and countermeasures."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Utilization of Third-party Service Providers",
+    "description": "This clause (Page 11, Clause (b)) details the option for covered entities to utilize affiliates or qualified third-party service providers to assist in complying with cybersecurity requirements, provided they adhere to sections 500.4 and 500.11.",
+    "text": "A covered entity may choose to utilize an affiliate or qualified third-party service provider to assist in complying with the requirements, subject to sections 500.4 and 500.11 of this Part."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.11(a)",
+    "name": "Third-party Service Provider Security Policy",
+    "description": "Each covered entity shall implement written policies and procedures to ensure the security of information systems and nonpublic information accessible to, or held by, third-party service providers, based on the risk assessment of the covered entity. Page 11, Clause 500.11 (a)",
+    "text": "Each covered entity shall implement written policies and procedures to ensure the security of information systems and nonpublic information accessible to, or held by, third-party service providers, based on the risk assessment of the covered entity."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.11-a-1",
+    "name": "Identification and Risk Assessment of Third-party Service Providers",
+    "description": "Page 11, Clause 500.11 (a)(1)",
+    "text": "The policies and procedures shall address the identification and risk assessment of third-party service providers."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "MinimumCybersecurityPracticesforThirdpartyProviders",
+    "name": "Minimum Cybersecurity Practices for Third-party Providers",
+    "description": "The policies and procedures shall address the minimum cybersecurity practices required to be met by third- party service providers in order for them to do business with the covered entity.",
+    "text": "Page 11, Clause 500.11 (a)(2): The policies and procedures shall address the minimum cybersecurity practices required to be met by third-party service providers in order for them to do business with the covered entity."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Due Diligence of Third-party Providers",
+    "description": "Page 11, Clause 500.11 (a)(3)",
+    "text": "The policies and procedures shall address the due diligence processes used to evaluate the adequacy of cybersecurity practices of third-party service providers."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.11 (a)(4)",
+    "name": "Periodic Assessment of Third-party Providers",
+    "description": "Page 11, Clause 500.11 (a)(4) - The policies and procedures shall address the periodic assessment of third-party service providers based on the risk they present and the continued adequacy of their cybersecurity practices.",
+    "text": "The policies and procedures shall address the periodic assessment of third-party service providers based on the risk they present and the continued adequacy of their cybersecurity practices."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Guidelines for Due Diligence and Contractual Protections",
+    "description": "Page 11, Clause 500.11 (b)",
+    "text": "The policies and procedures shall include relevant guidelines for due diligence and/or contractual protections relating to third-party service providers."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.11(b)(1)",
+    "name": "Access Controls by Third-party Providers",
+    "description": "Page 11, Clause 500.11 (b)(1)",
+    "text": "The policies and procedures shall include guidelines addressing third-party service provider\u2019s policies and procedures for access controls, including the use of multi-factor authentication as required by section 500.12 to limit access to relevant information systems and nonpublic information."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Encryption by Third-party Providers",
+    "description": "The policies and procedures shall include guidelines addressing third-party service provider\u2019s policies and procedures for use of encryption as required by section 500.15 to protect nonpublic information in transit and at rest. (Page 11, Clause 500.11 (b)(2))",
+    "text": "The policies and procedures shall include guidelines addressing third-party service provider\u2019s policies and procedures for use of encryption as required by section 500.15 to protect nonpublic information in transit and at rest."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Notification of Cybersecurity Events by Third-party Providers",
+    "description": "Page 11, Clause 500.11 (b)(3)",
+    "text": "The policies and procedures shall include guidelines addressing the notice to be provided to the covered entity in the event of a cybersecurity event directly impacting the covered entity\u2019s information systems or nonpublic information held by the third-party service provider."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "req-001",
+    "name": "Representations and Warranties",
+    "description": "Representations and warranties addressing the third-party service provider's cybersecurity policies and procedures that relate to the security of the covered entity's information systems or nonpublic information per Section 500.11(b)(4).",
+    "text": "Representations and warranties addressing the third-party service provider's cybersecurity policies and procedures that relate to the security of the covered entity's information systems or nonpublic information."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "multi_factor_authentication",
+    "name": "Multi-Factor Authentication Requirement",
+    "description": "Section 500.12(a)",
+    "text": "Multi-factor authentication shall be utilized for any individual accessing any information systems of a covered entity, unless the covered entity qualifies for a limited exemption pursuant to section 500.19(a) of this Part in which case multi-factor authentication shall be utilized for: (1) remote access to the covered entity's information systems; (2) remote access to third-party applications, including but not limited to those that are cloud-based, from which nonpublic information is accessible; and (3) all privileged accounts other than service accounts that prohibit interactive login."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.12(b)",
+    "name": "Alternative Controls Approval",
+    "description": "If the covered entity has a CISO, the CISO may approve in writing the use of reasonably equivalent or more secure compensating controls. Such controls shall be reviewed periodically, but at a minimum annually.",
+    "text": "Section 500.12(b)"
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.13(a)",
+    "name": "Asset Inventory Policies",
+    "description": "Section 500.13(a)",
+    "text": "As part of its cybersecurity program, each covered entity shall implement written policies and procedures designed to produce and maintain a complete, accurate, and documented asset inventory of the covered entity's information systems. The asset inventory shall be maintained in accordance with written policies and procedures. At a minimum, such policies and procedures shall include: (1) a method to track key information for each asset, including, as applicable, the following: (i) owner; (ii) location; (iii) classification or sensitivity; (iv) support expiration date; and (v) recovery time objectives; and (2) the frequency required to update and validate the covered entity's asset inventory."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "SR-001",
+    "name": "Data Disposal Policies",
+    "description": "Section 500.13(b)",
+    "text": "As part of its cybersecurity program, each covered entity shall include policies and procedures for the secure disposal on a periodic basis of any nonpublic information identified in section 500.1(k)(2)\u2013(3) of this Part that is no longer necessary for business operations or for other legitimate business purposes of the covered entity, except where such information is required to be retained by law or regulation."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.14(a)(1)",
+    "name": "Monitoring and Training: User Activity Monitoring",
+    "description": "Implement risk-based policies, procedures, and controls to monitor authorized users' activity and detect unauthorized access, use, or tampering with nonpublic information by such users.",
+    "text": "Section 500.14(a)(1)"
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.14(a)(2)",
+    "name": "Monitoring and Training: Malicious Code Protection",
+    "description": "Implement risk-based controls to protect against malicious code, including monitoring and filtering web traffic and email to block malicious content.",
+    "text": "Section 500.14(a)(2)"
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "CYB-500.14(a)(3)",
+    "name": "Monitoring and Training: Cybersecurity Awareness Training",
+    "description": "Section 500.14(a)(3) - Provide periodic, at least annual, cybersecurity awareness training for all personnel, updated to reflect risks identified in the risk assessment.",
+    "text": "Provide periodic, at least annual, cybersecurity awareness training for all personnel, updated to reflect risks identified in the risk assessment."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Class A Companies: Endpoint Detection and Response",
+    "description": "Section 500.14(b)(1)",
+    "text": "Implement an endpoint detection and response solution to monitor anomalous activity such as lateral movement, unless a more secure control is approved by the CISO."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.14(b)(2)",
+    "name": "Class A Companies: Centralized Logging and Alerting",
+    "description": "Section 500.14(b)(2) requires Class A Companies to implement a solution that centralizes logging and security event alerting unless a more secure control is approved by the CISO. This is relevant to the standard requirements as it addresses logging and alerting processes which are key to effective monitoring and response to cybersecurity threats.",
+    "text": "Implement a solution that centralizes logging and security event alerting unless a more secure control is approved by the CISO."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.15(a)",
+    "name": "Encryption of Nonpublic Information: Encryption Policy",
+    "description": "Section 500.15(a)",
+    "text": "Implement a written policy requiring encryption meeting industry standards to protect nonpublic information in transit over external networks and at rest."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.15(b)",
+    "name": "Encryption of Nonpublic Information: Alternative Controls",
+    "description": "If encryption at rest is infeasible, secure nonpublic information using effective alternative compensating controls approved by the CISO, reviewed at least annually.",
+    "text": "Section 500.15(b): If encryption at rest is infeasible, secure nonpublic information using effective alternative compensating controls approved by the CISO, reviewed at least annually."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.16(a)(1)",
+    "name": "Incident response plan",
+    "description": "Requirements for creating and maintaining an incident response plan.",
+    "text": "Incident response plans shall be reasonably designed to enable prompt response to, and recovery from, any cybersecurity event materially affecting the confidentiality, integrity, or availability of the covered entity\u2019s information systems or the continuing functionality of any aspect of the covered entity\u2019s business or operations."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "IRPC-001",
+    "name": "Incident response plan components",
+    "description": "Detailed components of an incident response plan including various aspects to be covered.",
+    "text": "Such plans shall address the following areas with respect to different types of cybersecurity events, including disruptive events such as ransomware incidents:"
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.16-1-i",
+    "name": "Goals of the incident response plan",
+    "description": "Specific focus on outlining the goals of the incident response plan.",
+    "text": "(i) the goals of the incident response plan;"
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.16(a)(1)(ii)",
+    "name": "Internal processes for responding to a cybersecurity event",
+    "description": "Clearly defined internal processes for dealing with a cybersecurity event.",
+    "text": "(ii) the internal processes for responding to a cybersecurity event;"
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "clear_roles_and_responsibilities",
+    "name": "Clear roles and responsibilities",
+    "description": "Roles and decision-making authorities need to be clearly defined.",
+    "text": "(iii) the definition of clear roles, responsibilities and levels of decision-making authority;"
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "req_communications_and_info_sharing",
+    "name": "Communications and Information Sharing",
+    "description": "Both external and internal communication channels need to be established.",
+    "text": "(iv) external and internal communications and information sharing;"
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "remediation-requirements",
+    "name": "Remediation requirements",
+    "description": "Requirements for addressing identified weaknesses in information systems and controls.",
+    "text": "(v) identification of requirements for the remediation of any identified weaknesses in information systems and associated controls;"
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Documentation and reporting",
+    "description": "Need for documentation and reporting of cybersecurity events and response activities.",
+    "text": "(vi) documentation and reporting regarding cybersecurity events and related incident response activities;"
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.16(a)(1)(vii)",
+    "name": "Recovery from backups",
+    "description": "Plans must include procedures for recovery from backups.",
+    "text": "(vii) recovery from backups;"
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Root cause analysis",
+    "description": "Preparation of root cause analysis is essential. This bullet point mandates that a root cause analysis must be performed to describe how and why a cybersecurity event occurred, its business impact, and the steps that will be taken to prevent recurrence.",
+    "text": "(viii) preparation of root cause analysis that describes how and why the event occurred, what business impact it had, and what will be done to prevent reoccurrence;"
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "sec500.16(a)(1)(ix)",
+    "name": "Updating of incident response plans",
+    "description": "Regular updates to the incident response plans are required.",
+    "text": "(ix) updating of incident response plans as necessary."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Business continuity and disaster recovery (BCDR) plan",
+    "description": "Requirements for creating and maintaining a Business Continuity and Disaster Recovery Plan.",
+    "text": "(2) Business continuity and disaster recovery (BCDR) plan. BCDR plans shall be reasonably designed to ensure the availability and functionality of the covered entity\u2019s information systems and material services and protect the covered entity\u2019s personnel, assets and nonpublic information in the event of a cybersecurity-related disruption to its normal business activities."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "BCDR_plan_01",
+    "name": "Essential components of BCDR plan",
+    "description": "Minimum requirements for the BCDR plan.",
+    "text": "Such plans shall, at minimum:"
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "req-1",
+    "name": "Essential operations identification",
+    "description": "Identification of essential components for continued operations.",
+    "text": "(i) identify documents, data, facilities, infrastructure, services, personnel and competencies essential to the continued operations of the covered entity\u2019s business;"
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "SP01",
+    "name": "Supervisory personnel responsibilities",
+    "description": "Supervisory responsibilities must be defined within the BCDR plan.",
+    "text": "(ii) identify the supervisory personnel responsible for implementing each aspect of the BCDR plan;"
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.16-a-2-iii",
+    "name": "Communication plan during disruptions",
+    "description": "Communication plan for cybersecurity-related disruptions.",
+    "text": "(iii) include a plan to communicate with essential persons in the event of a cybersecurity-related disruption to the operations of the covered entity."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Designated Personnel for Recovery",
+    "description": "Recovery of documentation and data, resumption of operations involving key personnel.",
+    "text": "Include disaster recovery specialists, senior governing body, and other essential personnel."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "SR1",
+    "name": "Recovery of Critical Data",
+    "description": "Ensuring operations resume ASAP post cybersecurity disruption.",
+    "text": "Timely recovery procedures for critical data and information systems."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1e1f4b2f-b5e8-4a93-836a-9cfbc94f14b3",
+    "name": "Backup Procedures",
+    "description": "Essential for operations continuity.",
+    "text": "Procedures for frequent backup and offsite storage of essential information."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "TPID001",
+    "name": "Third Party Identification",
+    "description": "Third-party reliance for continuous operations.",
+    "text": "Identify third parties necessary for information systems operations."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.16(b)",
+    "name": "Plan Accessibility",
+    "description": "Ensuring all necessary employees can implement plans.",
+    "text": "Current plans accessible to essential employees during a cybersecurity event."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Employee Training",
+    "description": "Training on roles and responsibilities.",
+    "text": "Provide training to employees responsible for implementing plans."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Annual Testing",
+    "description": "Periodic tests to revise plans as necessary.",
+    "text": "Annual testing of incident response and BCDR plans with critical staff."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "BackupRestorationTesting",
+    "name": "Backup Restoration Testing",
+    "description": "Ensure restore capability from backups.",
+    "text": "Test ability to restore critical data and information systems from backups annually."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Backup Protection",
+    "description": "Security measures for backups.",
+    "text": "Maintain and protect backups from unauthorized alterations or destruction."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Notify Superintendent of Cybersecurity Incident",
+    "description": "Electronic form submission on the department\u2019s website.",
+    "text": "Notify the superintendent within 72 hours of cybersecurity incident determination."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Continued Updates to Superintendent",
+    "description": "Update with material changes or new information",
+    "text": "Provide ongoing updates and information regarding the incident to the superintendent."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Annual Certification",
+    "description": "Each covered entity shall submit an annual written certification of compliance or acknowledgment of non-compliance by April 15.",
+    "text": "Each covered entity must submit a written certification annually by April 15."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Material Compliance Certification",
+    "description": "The certification must be based on sufficient data and documentation to demonstrate material compliance, including necessary documentation from officers, employees, representatives, vendors, and other entities.",
+    "text": "The written certification must confirm material compliance with cybersecurity requirements based on adequate data and documentation."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Non-Compliance Acknowledgment",
+    "description": "A written acknowledgment must detail non-compliance areas, describe their nature and extent, and outline remediation efforts or confirm their completion.",
+    "text": "If not in material compliance, the entity must acknowledge non-compliance, identify unsupported sections, describe the extent, and provide remediation timeline or confirmation."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.24",
+    "name": "Electronic Submission Form",
+    "description": "All certifications or acknowledgments must be submitted in the electronic form stipulated on the department\u2019s website and signed by the highest-ranking executive and the CISO or relevant senior officer.",
+    "text": "Certifications or acknowledgments must be submitted electronically in the form set by the department."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Record Maintenance for Five Years",
+    "description": "Entities must retain all documentation supporting the certification or acknowledgment, including areas requiring improvement, remedial efforts, and remediation plans for five years for departmental review upon request.",
+    "text": "Covered entities must maintain all supporting records for certification or acknowledgment for five years and make them available for examination upon request."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.17(c)",
+    "name": "Notice of Extortion Payment",
+    "description": "In the event of an extortion payment due to a cybersecurity event, entities must notify the superintendent electronically using the form provided on the department\u2019s website.",
+    "text": "Covered entities must electronically notify the superintendent about any extortion payment made in connection with a cybersecurity event."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Extortion Payment Notification",
+    "description": "Section 500.17 outlines the requirements for notifying and documenting extortion payments, including timing and necessary details.",
+    "text": "Within 24 hours of the extortion payment, notice of the payment; and within 30 days of the extortion payment, a written description of the reasons payment was necessary, a description of alternatives to payment considered, all diligence performed to find alternatives to payment, and all diligence performed to ensure compliance with applicable rules and regulations."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.18",
+    "name": "Confidentiality of Information",
+    "description": "Section 500.18 details the confidentiality provisions applicable to information provided by covered entities under this regulation.",
+    "text": "Information provided by a covered entity pursuant to this Part is subject to exemptions from disclosure under the Banking Law, Insurance Law, Financial Services Law, Public Officers Law, or any other applicable State or Federal law."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.19(a)",
+    "name": "Limited Exemption Criteria",
+    "description": "Section 500.19(a) outlines the criteria for limited exemptions based on employee count, revenue, and total assets.",
+    "text": "Each covered entity with fewer than 20 employees, less than $7,500,000 in gross annual revenue in each of the last three fiscal years, or less than $15,000,000 in year-end total assets is exempt from specific sections of this Part."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.19(b)",
+    "name": "Exemption for Employees and Agents",
+    "description": "Section 500.19(b) provides exemptions for employees and agents who are part of the covered entity's cybersecurity program.",
+    "text": "An employee, agent, wholly owned subsidiary, representative or designee of a covered entity, who is itself a covered entity, is exempt from this Part if they are covered by the cybersecurity program of the covered entity."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.19(c)",
+    "name": "Exemption for Non-Operators of Information Systems",
+    "description": "Section 500.19(c) explains the exemption criteria for entities that do not operate information systems or possess nonpublic information.",
+    "text": "A covered entity that does not directly or indirectly operate, maintain, utilize, or control any information systems, and that does not control, own, access, generate, receive, or possess nonpublic information is exempt from specific sections of this Part."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500_19_d",
+    "name": "Exemption for Certain Insurance Entities",
+    "description": "Section 500.19(d) details the exemption for certain insurance entities concerning their handling of nonpublic information.",
+    "text": "A covered entity under article 70 of the Insurance Law that does not control, own, access, generate, receive, or possess nonpublic information other than information relating to its corporate parent company or affiliates is exempt from specific sections of this Part."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "EXEMPT-INDBRK-500.19-E",
+    "name": "Exemption for Individual Insurance Brokers",
+    "description": "This exemption is detailed in section 500.19(e), outlining conditions under which individual insurance brokers may be exempt from specific requirements.",
+    "text": "Individual insurance brokers subject to Insurance Law section 2104 who qualify for the exemption pursuant to subdivision 500.19(c) and have not acted in any manner in soliciting, negotiating, or selling any policy or contract or placing risks for at least one year are exempt from the requirements of this Part, provided they do not otherwise qualify as a covered entity."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "001",
+    "name": "Exemption Filing Requirement",
+    "description": "As per section 500.19(f), this requirement ensures that entities that qualify for exemptions are documented and reviewed by the department.",
+    "text": "Covered entities qualifying for exemptions must file a Notice of Exemption electronically within 30 days of determining their exempt status, using the form provided on the department\u2019s website."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.19(g)",
+    "name": "General Exemptions",
+    "description": "Section 500.19(g) lists specific categories of persons and entities that are exempt from the cybersecurity requirements, highlighting the various statutory references.",
+    "text": "Persons subject to Insurance Law sections 1110 and 5904, as well as certain reinsurers and individual insurance agents or licensees placed in inactive status, are exempt from the requirements of this Part, provided they do not otherwise qualify as covered entities."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.19.1",
+    "name": "Loss of Exemption Status",
+    "description": "Section 500.19(h) outlines the transition period for entities that lose their exempt status, giving them a specific timeline to achieve compliance.",
+    "text": "If a covered entity ceases to qualify for an exemption, they have 180 days from the cessation date to comply with all applicable requirements of the Part."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.20(a)",
+    "name": "Enforcement by Superintendent",
+    "description": "Section 500.20(a) emphasizes the enforcement powers of the superintendent and clarifies that the regulation does not restrict these powers.",
+    "text": "The regulation will be enforced by the superintendent under any applicable laws and does not limit the superintendent\u2019s authority."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Constitution of Violation",
+    "description": "According to section 500.20(b), specific actions or inactions that constitute violations of the regulation are identified, focusing on data security and compliance durations.",
+    "text": "A single prohibited act or failure to act to meet an obligation required by this Part constitutes a violation. This includes failure to secure nonpublic information or material failure to comply for any 24-hour period with any section of this Part."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.20(c)",
+    "name": "Penalty Assessment Factors",
+    "description": "Section 500.20(c) indicates the considerations for penalty assessments, underscoring the importance of cooperation during investigations.",
+    "text": "In assessing penalties for violations, the superintendent will consider factors such as the extent of cooperation from the covered entity during investigations."
+  },
+  {
+    "isRelevantforStandard": false,
+    "id": "standard-001",
+    "name": "Good Faith",
+    "description": "Consideration of the entity's genuine intent or effort in the context of compliance.",
+    "text": "The good faith of the entity."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "NatureOfViolations",
+    "name": "Nature of Violations",
+    "description": "Assessment of the nature and seriousness of the entity's conduct leading to the violations.",
+    "text": "Whether the violations resulted from conduct that was unintentional or inadvertent, reckless or intentional and deliberate."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.20c.4",
+    "name": "Previous Examination Follow-Up",
+    "description": "Examination of whether the entity failed to address issues highlighted in prior examinations or instructions.",
+    "text": "Whether the violation was a result of failure to remedy previous examination matters requiring attention, or failing to adhere to any disciplinary letter, letter of instructions or similar."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.20(c)(5)",
+    "name": "Prior Violations",
+    "description": "Review of the entity's history regarding past violations to determine if there is a pattern of non-compliance.",
+    "text": "Any history of prior violations."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Incident Scope",
+    "description": "Determination of whether the violation was a one-time event or part of a recurring pattern.",
+    "text": "Whether the violation involved an isolated incident, repeat violations, systemic violations or a pattern of violations."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "False Information",
+    "description": "Assessment of the truthfulness and accuracy of the information provided by the entity.",
+    "text": "Whether the covered entity provided false or misleading information."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Consumer Harm",
+    "description": "Evaluation of the impact the violations had on consumers.",
+    "text": "The extent of harm to consumers."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "timely_disclosures",
+    "name": "Timely Disclosures",
+    "description": "Analysis of the entity's compliance with disclosure requirements to consumers in a timely manner.",
+    "text": "Whether required, accurate and timely disclosures were made to affected consumers."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Gravity of Violations",
+    "description": "Measurement of the severity and seriousness of the violations.",
+    "text": "The gravity of the violations."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Violation Count and Duration",
+    "description": "Consideration of the frequency and duration of the violations.",
+    "text": "The number of violations and the length of time over which they occurred."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Senior Governing Body Involvement",
+    "description": "Investigation of the involvement of the entity's senior governing body in the violations.",
+    "text": "The extent, if any, to which the senior governing body participated therein."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Other Regulatory Penalties",
+    "description": "Review of any penalties or sanctions imposed on the entity by other regulatory agencies.",
+    "text": "Any penalty or sanction imposed by any other regulatory agency."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "FRNW001",
+    "name": "Financial Resources and Net Worth",
+    "description": "Consideration of the entity's financial status in the context of the violations.",
+    "text": "The financial resources, net worth and annual business volume of the covered entity and its affiliates."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.20(c)(15)",
+    "name": "Cybersecurity Framework Consistency",
+    "description": "Evaluation of the alignment of the entity's policies and procedures with recognized cybersecurity standards.",
+    "text": "The extent to which the relevant policies and procedures of the company are consistent with nationally recognized cybersecurity frameworks, such as NIST."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.20(c)(16)",
+    "name": "Other Justice and Public Interest Matters",
+    "description": "Inclusion of any additional considerations relevant to justice and public interest.",
+    "text": "Such other matters as justice and the public interest require."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.21",
+    "name": "Effective Date",
+    "description": "Specification of the effective date of the regulations and the requirement for annual compliance certification.",
+    "text": "This Part will be effective March 1, 2017. Covered entities will be required to annually prepare and submit to the superintendent a certification of compliance with New York State Department of Financial Services Cybersecurity Regulations under section 500.17(b) of this Part commencing February 15, 2018."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Second Amendment Effective Date",
+    "description": "Notification of the effective date for the second amendment to the regulations.",
+    "text": "The second amendment to this Part shall become effective November 1, 2023."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "GeneralCompliancePeriod",
+    "name": "General Compliance Period",
+    "description": "Describes the general compliance period for all covered entities apart from specific exceptions.",
+    "text": "Covered entities shall have 180 days from the effective date of this Part to comply with the requirements set forth in this Part, except as otherwise specified."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "one_year_compliance_period",
+    "name": "One-year Compliance Period",
+    "description": "Specifies a one-year transitional period for certain sections of the Part.",
+    "text": "Covered entities shall have one year from the effective date of this Part to comply with the requirements of sections 500.4(b), 500.5, 500.9, 500.12, and 500.14(b) of this Part."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.22.b.2",
+    "name": "Eighteen-month Compliance Period",
+    "description": "Specifies an eighteen-month transitional period for certain sections of the Part.",
+    "text": "Covered entities shall have eighteen months from the effective date of this Part to comply with the requirements of sections 500.6, 500.8, 500.13, 500.14(a), and 500.15 of this Part."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Two-year Compliance Period",
+    "description": "Specifies a two-year transitional period for section 500.11 of the Part.",
+    "text": "Covered entities shall have two years from the effective date of this Part to comply with the requirements of section 500.11 of this Part."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Compliance Period for Second Amendment",
+    "description": "Describes the general compliance period for the second amendment, with exceptions noted. This requirement is essential for compliance teams to understand the timeline for adhering to new regulations.",
+    "text": "Covered entities shall have 180 days from the effective date of the second amendment to this Part to comply with the new requirements set forth in the second amendment to this Part, except as otherwise specified in subdivisions (d) and (e) below."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "REQ-500.22-d-1",
+    "name": "30-day Compliance Period for Second Amendment",
+    "description": "Specifies a 30-day compliance period for section 500.17 as per the second amendment.",
+    "text": "Covered entities shall have 30 days from the effective date of the second amendment to this Part to comply with the new requirements specified in section 500.17 of this Part."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.22(d)(2)",
+    "name": "One-year Compliance Period for Second Amendment",
+    "description": "Specifies a one-year compliance period for certain sections as per the second amendment.",
+    "text": "Covered entities shall have one year from the effective date of the second amendment to this Part to comply with the new requirements specified in sections 500.4, 500.15, 500.16, and 500.19(a) of this Part."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Eighteen-month Compliance Period for Second Amendment",
+    "description": "Specifies an eighteen-month compliance period for certain sections as per the second amendment.",
+    "text": "Covered entities shall have 18 months from the effective date of the second amendment to this Part to comply with the new requirements specified in sections 500.5(a)(2), 500.7, 500.14(a)(2), and 500.14(b) of this Part."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "nydfs-500.22(d)(4)",
+    "name": "Two-year Compliance Period for Second Amendment",
+    "description": "Specifies a two-year compliance period for certain sections as per the second amendment.",
+    "text": "Covered entities shall have two years from the effective date of the second amendment to this Part to comply with the new requirements specified in sections 500.12 and 500.13(a) of this Part."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Effective Date for New Requirements",
+    "description": "Sets the effective date for newly specified requirements.",
+    "text": "The new requirements specified in sections 500.19(e)-(h), 500.20, 500.21, 500.22, and 500.24 of this Part shall become effective November 1, 2023."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.23",
+    "name": "Severability Clause",
+    "description": "500.23 Severability. If any provision of this Part or the application thereof to any person or circumstance is adjudged invalid by a court of competent jurisdiction, such judgment shall not affect or impair the validity of the other provisions of this Part or the application thereof to other persons or circumstances.",
+    "text": "If any provision of this Part or the application thereof to any person or circumstance is adjudged invalid by a court of competent jurisdiction, such judgment shall not affect or impair the validity of the other provisions of this Part or the application thereof to other persons or circumstances."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.24(a)",
+    "name": "Exemption Application Timeline",
+    "description": "A filer required to make an electronic filing or a submission pursuant to this Part may apply to the superintendent for an exemption from the requirement that the filing or submission be electronic by submitting a written request to the superintendent for approval at least 30 days before the filer shall submit to the superintendent the particular filing or submission that is the subject of the request.",
+    "text": "500.24 Exemptions from electronic filing and submission requirements. (a)."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.24(b)",
+    "name": "Request Details for Exemption",
+    "description": "500.24 Exemptions from electronic filing and submission requirements. (b).",
+    "text": "The request for an exemption shall set forth the filer\u2019s DFS license number, NAIC number, Nationwide Multistate Licensing System number or institution number; identify the specific filing or submission for which the filer is applying for the exemption; specify whether the filer is making the request for an exemption based upon undue hardship, impracticability or good cause, and set forth a detailed explanation as to the reason that the superintendent should approve the request; and specify whether the request for an exemption extends to future filings or submissions, in addition to the specific filing or submission identified."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.24.c",
+    "name": "Additional Information",
+    "description": "The filer requesting an exemption shall submit, upon the superintendent\u2019s request, any additional information necessary for the superintendent to evaluate the filer\u2019s request for an exemption.",
+    "text": "500.24 Exemptions from electronic filing and submission requirements. (c)"
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "1",
+    "name": "Exemption Approval Process",
+    "description": "500.24 Exemptions from electronic filing and submission requirements. (d).",
+    "text": "The filer shall be exempt from the electronic filing or submission requirement upon the superintendent\u2019s written determination so exempting the filer, where the determination specifies the basis upon which the superintendent is granting the request and to which filings or submissions the exemption applies."
+  },
+  {
+    "isRelevantforStandard": true,
+    "id": "500.24-e",
+    "name": "Filing Form for Exempt Filers",
+    "description": "Outlines the procedure for filers granted an exemption from electronic filing or submission to submit in a form and manner acceptable to the superintendent as specified in 500.24 (e).",
+    "text": "If the superintendent approves a filer\u2019s request for an exemption from the electronic filing or submission requirement, then the filer shall make a filing or submission in a form and manner acceptable to the superintendent."
+  },
+  {
+    "isRelevantforStandard": false,
+    "id": "1",
+    "name": "Repeal of Appendices",
+    "description": "End of Document.",
+    "text": "Appendices A and B to 23 NYCRR 500 are hereby repealed."
+  }
+]

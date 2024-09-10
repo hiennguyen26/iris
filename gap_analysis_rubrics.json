@@ -1,0 +1,136 @@
+[
+  {
+    "personality": "world's leading expert in language gap analysis between standards and regulations with a specialty in Structural & Contextual Gap Analysis",
+    "gap_analysis_rubric": [
+      {
+        "question": "What are the key elements and requirements outlined in the fact that are also mentioned in the dot point?"
+      },
+      {
+        "question": "Are there any specific terminologies or phrases used in the fact that are missing or altered in the dot point?"
+      },
+      {
+        "question": "In what context is the information in the fact applied compared to the context provided by the dot point?"
+      },
+      {
+        "question": "Do the fact and the dot point reference or depend on different assumptions or foundational principles?"
+      },
+      {
+        "question": "Is there any additional information or clarification required in the dot point that is already covered by the fact?"
+      },
+      {
+        "question": "Are the timelines or deadlines mentioned in the fact aligned with those in the dot point?"
+      },
+      {
+        "question": "How do the scopes or applicability of the fact and the dot point compare?"
+      },
+      {
+        "question": "Are there any instructions or directives in the fact that are not addressed by the dot point?"
+      },
+      {
+        "question": "Is the level of detail provided in the fact sufficient compared to the requirements of the dot point?"
+      },
+      {
+        "question": "Are there any evident contradictions between the instructions, outcomes, or measures of success as described in the fact and the dot point?"
+      }
+    ]
+  },
+  {
+    "personality": "world's greatest leading expert in language gap analysis between standards and regulations, specialized in Relevance & Specificity Gap Analysis",
+    "gap_analysis_rubric": [
+      {
+        "question": "Does the fact explicitly address the specific requirement outlined in the dot point?"
+      },
+      {
+        "question": "Is the language used in the fact as precise and clear as the language in the dot point?"
+      },
+      {
+        "question": "Can the fact be applied directly to meet the condition stated in the dot point without any ambiguity?"
+      },
+      {
+        "question": "Are there any terms in the fact that could be interpreted differently when compared to the dot point?"
+      },
+      {
+        "question": "Does the fact include all necessary elements to fully comply with the dot point?"
+      },
+      {
+        "question": "Is the scope of the fact aligned with the breadth of coverage required by the dot point?"
+      },
+      {
+        "question": "Are there specific examples or details in the dot point that are missing in the fact?"
+      },
+      {
+        "question": "Does the fact introduce any additional information not required by the dot point that could lead to misinterpretation?"
+      },
+      {
+        "question": "Is there a temporal or contextual relevance between the fact and the dot point to ensure they align in terms of time and situation?"
+      },
+      {
+        "question": "Does the fact address underlying principles or objectives that the dot point is aimed at achieving?"
+      }
+    ]
+  },
+  {
+    "personality": "world's greatest leading expert in language gap analysis between standards and regulations with a speciality in Modality & Possibility Gap Analysis",
+    "gap_analysis_rubric": [
+      {
+        "question": "Does the fact impose a requirement or suggest a possibility, and how does this compare to the wording of the dot point?"
+      },
+      {
+        "question": "Is the modality (e.g., \"shall\", \"should\", \"may\", \"can\") used in the fact as strong or weaker than in the dot point?"
+      },
+      {
+        "question": "Does the dot point allow for more or less flexibility than the fact in terms of compliance?"
+      },
+      {
+        "question": "Are there any conditions or exceptions noted in the fact that do not appear in the dot point?"
+      },
+      {
+        "question": "Is the scope of obligation or permission in the fact broader or narrower than in the dot point?"
+      },
+      {
+        "question": "Does the fact provide specific examples or scenarios that clarify its application, and are these reflected in the dot point?"
+      },
+      {
+        "question": "Are there any implied requirements or permissions in the fact that might lead to different interpretations than the dot point?"
+      },
+      {
+        "question": "How do the consequences of non-compliance differ between the fact and the dot point?"
+      }
+    ]
+  },
+  {
+    "personality": "The world's greatest leading expert in language gap analysis between standards and regulations, specializing in Directive & Outcome Gap Analysis.",
+    "gap_analysis_rubric": [
+      {
+        "question": "Does the existing internal standard provide outcomes that align with the objectives set forth in the external regulation?"
+      },
+      {
+        "question": "Are the terminologies and definitions consistent between the internal standard and the external regulation?"
+      },
+      {
+        "question": "How do the compliance metrics of the internal standard compare with those required by the external regulation?"
+      },
+      {
+        "question": "Is there a clear mapping between the directives in the internal standard and the requirements in the external regulation?"
+      },
+      {
+        "question": "Are there any additional requirements or stipulations in the external regulation that are not addressed in the internal standard?"
+      },
+      {
+        "question": "How frequently is the internal standard reviewed and updated to ensure alignment with external regulations?"
+      },
+      {
+        "question": "What are the potential risks if the gap between the internal standard and the external regulation is not addressed?"
+      },
+      {
+        "question": "Are there any external benchmarks or best practices that can help bridge the gap between the internal standard and the regulation?"
+      },
+      {
+        "question": "Does the internal standard account for any region-specific regulations that may differ from the broader external regulation?"
+      },
+      {
+        "question": "Are the roles and responsibilities for compliance clearly defined in both the internal standard and external regulation?"
+      }
+    ]
+  }
+]

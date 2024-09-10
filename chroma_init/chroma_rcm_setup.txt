@@ -1,0 +1,5 @@
+# Install required packages
+pip install chromadb pandas numpy sentence-transformers
+
+# Run the Chroma DB initialization script
+python chroma_rcm_init.py
