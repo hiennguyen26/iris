@@ -56,6 +56,10 @@ async def generate_RCMs(process_name: str) -> BodyRCMs:
        - Provide 2-3 relevant industry standard or regulatory framework.
        - Include a detailed description of its purpose and applicability.
        - Assign a unique ID following the format STD-XXXX.
+       - For each standard, provide 2-3 specific requirements:
+         - Assign a unique ID following the format REQ-XXXX.
+         - Provide a name for the requirement.
+         - Include a description of the requirement, its key principles, and why it's important to the process.
 
     2. Controls:
        - Develop 2-3 specific, measurable controls that address key aspects of the process.
@@ -66,7 +70,7 @@ async def generate_RCMs(process_name: str) -> BodyRCMs:
          - Assign a unique ID following the format CTRL-XXXX.
 
     3. Risks:
-       - Identify 1 significant risks per process.
+       - Identify 2-3 significant risk per process.
        - For each risk:
          - Describe the potential impact on the organization.
          - Explain how it relates to the associated control.
