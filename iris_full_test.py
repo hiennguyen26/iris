@@ -41,6 +41,7 @@ class GapAnswer(BaseModel):
     answer: str = Field(description="The answer to the gap analysis question given a internal fact and external dot point")
     gap_exists: bool = Field(description="Whether a gap exists between the internal fact and external dot point")
     remediation: str = Field(description="The remediation suggestion for the gap if it exists, otherwise 'No remediation needed'")
+    gap_severity: str = Field(description="The level of severity for the gap if it exists (high, medium, low), otherwise 'No gap'")
     
 class GapAnalysis(BaseModel):
     question: str = Field(description="The gap analysis question")
@@ -115,4 +116,53 @@ async def analyze_all_gaps():
 
 # Run the analysis
 if __name__ == "__main__":
-    asyncio.run(analyze_all_gaps())
+    import matplotlib.pyplot as plt
+
+    import time
+
+    start_time = time.time()
+    all_analyses = asyncio.run(analyze_all_gaps())
+    
+    # Calculate stats
+    total_gaps = sum(any(ga.gap_answer.gap_exists for ga in analysis.gap_analysis) for analysis in all_analyses)
+    total_questions = sum(len(analysis.gap_analysis) for analysis in all_analyses)
+    
+    # Count gaps by severity
+    high_severity_gaps = sum(sum(1 for ga in analysis.gap_analysis if ga.gap_answer.gap_exists and ga.gap_answer.gap_severity == "high") for analysis in all_analyses)
+    medium_severity_gaps = sum(sum(1 for ga in analysis.gap_analysis if ga.gap_answer.gap_exists and ga.gap_answer.gap_severity == "medium") for analysis in all_analyses)
+    low_severity_gaps = sum(sum(1 for ga in analysis.gap_analysis if ga.gap_answer.gap_exists and ga.gap_answer.gap_severity == "low") for analysis in all_analyses)
+
+    end_time = time.time()
+    print(f"Time taken to run main: {end_time - start_time:.2f} seconds")
+    
+    # Print stats
+    print(f"Total number of analyses: {len(all_analyses)}")
+    print(f"Total number of gaps identified: {total_gaps}")
+    print(f"Total number of questions analyzed: {total_questions}")
+    print(f"Percentage of questions with gaps: {(total_gaps / total_questions) * 100:.2f}%")
+    print(f"Number of high severity gaps: {high_severity_gaps}")
+    print(f"Number of medium severity gaps: {medium_severity_gaps}")
+    print(f"Number of low severity gaps: {low_severity_gaps}")
+
+    # Create pie chart for gap severity
+    labels = 'High', 'Medium', 'Low'
+    sizes = [high_severity_gaps, medium_severity_gaps, low_severity_gaps]
+    colors = ['red', 'orange', 'yellow']
+    plt.pie(sizes, labels=labels, colors=colors, autopct='%1.1f%%', startangle=90)
+    plt.axis('equal')
+    plt.title('Gap Severity Distribution')
+    plt.savefig('gap_severity_distribution.png')
+    plt.close()
+
+    # Create bar chart for gap analysis
+    labels = ['Total Questions', 'Questions with Gaps']
+    values = [total_questions, total_gaps]
+    plt.bar(labels, values)
+    plt.title('Gap Analysis Overview')
+    plt.ylabel('Number of Questions')
+    for i, v in enumerate(values):
+        plt.text(i, v, str(v), ha='center', va='bottom')
+    plt.savefig('gap_analysis_overview.png')
+    plt.close()
+
+    print("Graphs have been saved as 'gap_severity_distribution.png' and 'gap_analysis_overview.png'")
