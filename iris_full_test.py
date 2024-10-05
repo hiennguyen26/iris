@@ -106,13 +106,11 @@ async def analyze_all_gaps():
                     requirement['description'],
                     rubric['gap_analysis_rubric']
                 )
-                all_analyses.append(analysis)
-    
+                yield analysis  # Yield each analysis as it's completed
+
     # Save the results to a JSON file
     with open('gap_analysis_results.json', 'w') as f:
         json.dump([analysis.dict() for analysis in all_analyses], f, indent=2)
-    
-    return all_analyses
 
 # Run the analysis
 if __name__ == "__main__":
